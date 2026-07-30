@@ -1,0 +1,43 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0
+rootdir: /tests
+plugins: json-ctrf-0.3.5
+collected 4 items
+
+../tests/test_outputs.py F.FF                                            [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_report_file_exists ____________________________
+
+    def test_report_file_exists():
+>       assert os.path.exists(REPORT_PATH), f"Output file '{REPORT_PATH}' does not exist."
+E       AssertionError: Output file '/app/report.json' does not exist.
+E       assert False
+E        +  where False = <function exists at 0x7c7986337560>('/app/report.json')
+E        +    where <function exists at 0x7c7986337560> = <module 'posixpath' (frozen)>.exists
+E        +      where <module 'posixpath' (frozen)> = os.path
+
+/tests/test_outputs.py:8: AssertionError
+_________________________ test_report_schema_and_types _________________________
+
+    def test_report_schema_and_types():
+>       with open(REPORT_PATH, "r", encoding="utf-8") as f:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/app/report.json'
+
+/tests/test_outputs.py:16: FileNotFoundError
+______________________________ test_report_values ______________________________
+
+    def test_report_values():
+>       with open(REPORT_PATH, "r", encoding="utf-8") as f:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/app/report.json'
+
+/tests/test_outputs.py:45: FileNotFoundError
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED ../tests/test_outputs.py::test_no_extra_json_files
+FAILED ../tests/test_outputs.py::test_report_file_exists - AssertionError: Ou...
+FAILED ../tests/test_outputs.py::test_report_schema_and_types - FileNotFoundE...
+FAILED ../tests/test_outputs.py::test_report_values - FileNotFoundError: [Err...
+========================= 3 failed, 1 passed in 0.04s ==========================

@@ -1,0 +1,65 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 1,
+            "failed": 3,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1785396264.0204022,
+            "stop": 1785396264.0993016
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_report_file_exists",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0019445270008873194,
+                "start": 1785396264.0615876,
+                "stop": 1785396264.083844,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_report_file_exists():\n>       assert os.path.exists(REPORT_PATH), f\"Output file '{REPORT_PATH}' does not exist.\"\nE       AssertionError: Output file '/app/report.json' does not exist.\nE       assert False\nE        +  where False = <function exists at 0x709343b0b560>('/app/report.json')\nE        +    where <function exists at 0x709343b0b560> = <module 'posixpath' (frozen)>.exists\nE        +      where <module 'posixpath' (frozen)> = os.path\n\n/tests/test_outputs.py:9: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_no_extra_json_files",
+                "status": "passed",
+                "duration": 0.0005800069993711077,
+                "start": 1785396264.0842495,
+                "stop": 1785396264.0850465,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_schema_and_types",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0004885969974566251,
+                "start": 1785396264.085257,
+                "stop": 1785396264.0902734,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_report_schema_and_types():\n>       with open(REPORT_PATH, \"r\", encoding=\"utf-8\") as f:\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE       FileNotFoundError: [Errno 2] No such file or directory: '/app/report.json'\n\n/tests/test_outputs.py:17: FileNotFoundError",
+                "message": "The test failed in the call phase"
+            },
+            {
+                "name": "test_outputs.py::test_report_values_dynamically",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.001985666998734814,
+                "start": 1785396264.0905256,
+                "stop": 1785396264.0990129,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_report_values_dynamically():\n        \"\"\"Independently computes expected values from /app/data to avoid hardcoding answer literals.\"\"\"\n        with open(os.path.join(DATA_DIR, \"products.json\"), \"r\", encoding=\"utf-8\") as f:\n            products_data = json.load(f)\n        with open(os.path.join(DATA_DIR, \"orders.json\"), \"r\", encoding=\"utf-8\") as f:\n            orders_data = json.load(f)\n    \n        product_category_map = {}\n        for p in products_data:\n            p_id = (p.get(\"product_id\") or p.get(\"id\") or \"\").strip().upper()\n            cat = p.get(\"category\")\n            cat_name = str(cat).strip() if (cat and str(cat).strip()) else \"Uncategorized\"\n            if p_id:\n                product_category_map[p_id] = cat_name\n    \n        expected_rev = 0.0\n        expected_cancelled = 0\n        expected_active_cust = set()\n        cust_spend = {}\n        prod_qty = {}\n        cat_rev = {}\n    \n        for order in orders_data:\n            status = (order.get(\"status\") or \"\").strip().lower()\n            if status == \"cancelled\":\n                expected_cancelled += 1\n                continue\n            if status != \"completed\":\n                continue\n    \n            cid = str(order.get(\"customer_id\") or \"\").strip().upper()\n            if cid:\n                expected_active_cust.add(cid)\n    \n            order_spend = 0.0\n            for item in order.get(\"items\", []):\n                pid = str(item.get(\"product_id\") or \"\").strip().upper()\n                qty = int(item.get(\"quantity\", 0))\n                price = float(item.get(\"unit_price\", 0.0))\n                line = qty * price\n                order_spend += line\n    \n                if pid:\n                    prod_qty[pid] = prod_qty.get(pid, 0) + qty\n                cat = product_category_map.get(pid, \"Uncategorized\")\n                cat_rev[cat] = cat_rev.get(cat, 0.0) + line\n    \n            expected_rev += order_spend\n            if cid:\n                cust_spend[cid] = cust_spend.get(cid, 0.0) + order_spend\n    \n        best_cust = sorted(cust_spend.items(), key=lambda x: (-round(x[1], 2), x[0]))[0]\n        best_prod = sorted(prod_qty.items(), key=lambda x: (-x[1], x[0]))[0]\n    \n>       with open(REPORT_PATH, \"r\", encoding=\"utf-8\") as f:\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE       FileNotFoundError: [Errno 2] No such file or directory: '/app/report.json'\n\n/tests/test_outputs.py:99: FileNotFoundError",
+                "message": "The test failed in the call phase"
+            }
+        ]
+    }
+}

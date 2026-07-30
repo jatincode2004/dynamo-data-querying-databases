@@ -1,0 +1,27 @@
+[
+  {
+    "product_id": "prod_a",
+    "product_name": "Wireless Mouse",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD_B",
+    "product_name": "Mechanical Keyboard",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "Prod_C",
+    "product_name": "Cotton T-Shirt",
+    "category": "Apparel"
+  },
+  {
+    "product_id": "PROD_D",
+    "product_name": "Generic Desk Organizer",
+    "category": null
+  },
+  {
+    "product_id": "prod_e",
+    "product_name": "Cable Sleeves",
+    "category": ""
+  }
+]

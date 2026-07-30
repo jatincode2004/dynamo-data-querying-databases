@@ -18,6 +18,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends python3 python3
 # Example (task-specific system packages / input data):
 # RUN apt-get update && apt-get install -y --no-install-recommends <packages> \
 #     && rm -rf /var/lib/apt/lists/*
-# COPY data /app/data
+ COPY data /app/data
 
 WORKDIR /app

@@ -1,0 +1,66 @@
+[
+  {
+    "order_id": "ORD-001",
+    "customer_id": "cust_101",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_a",
+        "category": "Electronics",
+        "quantity": 2,
+        "unit_price": 25.50
+      },
+      {
+        "product_id": "PROD_B",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 49.50
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-002",
+    "customer_id": "CUST_102",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_C",
+        "category": "Apparel",
+        "quantity": 5,
+        "unit_price": 15.00
+      },
+      {
+        "product_id": "prod_a",
+        "category": "Electronics",
+        "quantity": 8,
+        "unit_price": 3.1875
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-003",
+    "customer_id": "Cust_103",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_D",
+        "category": "",
+        "quantity": 10,
+        "unit_price": 10.00
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-004",
+    "customer_id": "CUST_104",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_D",
+        "category": null,
+        "quantity": 4,
+        "unit_price": 12.50
+      }
+    ]
+  }
+]
