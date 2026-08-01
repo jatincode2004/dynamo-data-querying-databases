@@ -23,3 +23,4 @@ verification_explanation = "Tests check that /app/report.json exists, adheres st
 timeout_sec = 120.0
 
 [agent]
+timeout_sec = 120.0
