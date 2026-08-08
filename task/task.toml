@@ -2,25 +2,39 @@ artifacts = ["/app/report.json"]
 
 [task]
 name = "dynamo/document-collection-reporting"
-description = "Aggregate and report metrics from multi-collection JSON documents under /app/data to /app/report.json."
+description = "Aggregate business metrics from multiple JSON document collections with inconsistent fields and identifier casing."
 
 [metadata]
-# --- Pre-seeded for you when this repo was created – DO NOT EDIT ---
 category = "Data Querying and Databases"
 subcategory = "NoSQL and document stores"
-# --- Fixed for this dataset – LEAVE AS-IS ---
 model_tested = "Opus-4.8"
 agent_tested = "Terminus-2"
-# --- You fill these in ---
-task_objective = ["implement"]
-artifact_type = ["data_processing_script"]
-expert_time_estimate_hours = 8.0
-difficulty_explanation = "Requires handling document schema variations, multi-key normalization, case-insensitive ID matching, tie-breaking rules, and exact floating-point rounding across multi-collection datasets."
-solution_explanation = "Parse input document collections under /app/data, apply status filtering and casing normalization, aggregate net spend and quantities, apply tie-breaking logic, and format the output as JSON."
-verification_explanation = "Tests check that /app/report.json exists, adheres strictly to the defined schema with no extra fields, and contains exact calculated values for all top-level metrics."
+
+task_objective = ["analyze", "transform", "generate"]
+artifact_type = [
+    "database_or_structured_store",
+    "generated_output_artifact",
+    "single_script_or_program"
+]
+expert_time_estimate_hours = 8
+
+difficulty_explanation = "The task requires inspecting multiple document collections, reconciling inconsistent identifiers and category fields, filtering order states correctly, aggregating revenue and quantities, and applying deterministic tie-breaking rules."
+
+solution_explanation = "Inspect the customer, product, and order collections, normalize identifiers, process non-cancelled orders, aggregate customer spending, product quantities, and category revenue, then generate the required JSON report."
+
+verification_explanation = "The verifier checks that exactly one report file exists, validates its schema and data types, and compares all required metrics against the expected values."
 
 [verifier]
 timeout_sec = 120.0
 
 [agent]
 timeout_sec = 120.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
