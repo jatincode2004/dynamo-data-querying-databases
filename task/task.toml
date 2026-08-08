@@ -17,13 +17,14 @@ artifact_type = [
     "generated_output_artifact",
     "single_script_or_program"
 ]
+
 expert_time_estimate_hours = 8.0
 
-difficulty_explanation = "Requires handling document schema variations, multi-key normalization, case-insensitive ID matching, tie-breaking rules, and exact floating-point rounding across multi-collection datasets."
+difficulty_explanation = "The task requires inspecting multiple document collections, reconciling inconsistent identifiers and category fields, filtering order states correctly, aggregating revenue and quantities, and applying deterministic tie-breaking rules."
 
-solution_explanation = "Parse input document collections under /app/data, apply status filtering and casing normalization, aggregate net spend and quantities, apply tie-breaking logic, and format the output as JSON."
+solution_explanation = "Inspect the customer, product, and order collections, normalize identifiers, process non-cancelled orders, aggregate customer spending, product quantities, and category revenue, then generate the required JSON report."
 
-verification_explanation = "Tests check that /app/report.json exists, adheres strictly to the defined schema with no extra fields, and contains exact calculated values for all top-level metrics."
+verification_explanation = "The verifier checks that exactly one report file exists, validates its schema and data types, and compares all required metrics against the expected values."
 
 [verifier]
 timeout_sec = 120.0
@@ -38,13 +39,4 @@ memory_mb = 2048
 storage_mb = 10240
 gpus = 0
 allow_internet = true
-mcp_servers = []    "single_script_or_program"
-]
-expert_time_estimate_hours = 8
-
-difficulty_explanation = "The task requires inspecting multiple document collections, reconciling inconsistent identifiers and category fields, filtering order states correctly, aggregating revenue and quantities, and applying deterministic tie-breaking rules."
-
-solution_explanation = "Inspect the customer, product, and order collections, normalize identifiers, process non-cancelled orders, aggregate customer spending, product quantities, and category revenue, then generate the required JSON report."
-
-verification_explanation = "The verifier checks that exactly one report file exists, validates its schema and data types, and compares all required metrics against the expected values."
-
+mcp_servers = []
