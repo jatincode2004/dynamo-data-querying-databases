@@ -29,7 +29,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0002",
@@ -61,7 +62,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0003",
@@ -93,7 +95,8 @@
         "discount": 93.16
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0004",
@@ -109,7 +112,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0005",
@@ -133,7 +137,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0006",
@@ -149,7 +154,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0007",
@@ -165,7 +171,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0008",
@@ -189,7 +196,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0009",
@@ -213,7 +221,8 @@
         "discount": 94.67
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0010",
@@ -229,7 +238,8 @@
         "discount": 144.47
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0011",
@@ -269,7 +279,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0012",
@@ -285,7 +296,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0013",
@@ -317,7 +329,8 @@
         "discount": 1.54
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0014",
@@ -333,7 +346,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0015",
@@ -349,7 +363,8 @@
         "discount": 19.9
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0016",
@@ -381,7 +396,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0017",
@@ -405,7 +421,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0018",
@@ -445,7 +462,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0019",
@@ -477,7 +495,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0020",
@@ -517,7 +536,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0021",
@@ -533,7 +553,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0022",
@@ -565,7 +586,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0023",
@@ -589,7 +611,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0024",
@@ -621,7 +644,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0025",
@@ -653,7 +677,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0026",
@@ -677,7 +702,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0027",
@@ -717,7 +743,8 @@
         "discount": 22.91
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0028",
@@ -733,7 +760,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0029",
@@ -773,7 +801,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0030",
@@ -805,7 +834,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0031",
@@ -837,7 +867,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0032",
@@ -869,7 +900,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0033",
@@ -901,7 +933,8 @@
         "discount": 4.79
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0034",
@@ -941,7 +974,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0035",
@@ -957,7 +991,8 @@
         "discount": 79.95
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0036",
@@ -973,7 +1008,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0037",
@@ -989,7 +1025,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0038",
@@ -1021,7 +1058,8 @@
         "discount": 18.38
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0039",
@@ -1061,7 +1099,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0040",
@@ -1077,7 +1116,8 @@
         "discount": 11.31
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0041",
@@ -1109,7 +1149,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0042",
@@ -1133,7 +1174,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0043",
@@ -1157,7 +1199,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0044",
@@ -1173,7 +1216,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0045",
@@ -1205,7 +1249,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0046",
@@ -1229,7 +1274,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0047",
@@ -1253,7 +1299,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0048",
@@ -1285,7 +1332,8 @@
         "discount": 3.54
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0049",
@@ -1325,7 +1373,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0050",
@@ -1349,7 +1398,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0051",
@@ -1373,7 +1423,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0052",
@@ -1413,7 +1464,8 @@
         "discount": 176.8
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0053",
@@ -1445,7 +1497,8 @@
         "discount": 6.83
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0054",
@@ -1469,7 +1522,8 @@
         "discount": 5.8
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0055",
@@ -1501,7 +1555,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0056",
@@ -1533,7 +1588,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0057",
@@ -1573,7 +1629,8 @@
         "discount": 179.89
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0058",
@@ -1597,7 +1654,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0059",
@@ -1621,7 +1679,8 @@
         "discount": 2.95
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0060",
@@ -1653,7 +1712,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0061",
@@ -1685,7 +1745,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0062",
@@ -1709,7 +1770,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0063",
@@ -1725,7 +1787,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0064",
@@ -1757,7 +1820,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0065",
@@ -1773,7 +1837,8 @@
         "discount": 11.9
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0066",
@@ -1789,7 +1854,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0067",
@@ -1821,7 +1887,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0068",
@@ -1837,7 +1904,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0069",
@@ -1877,7 +1945,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0070",
@@ -1893,7 +1962,8 @@
         "discount": 5.4
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0071",
@@ -1925,7 +1995,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0072",
@@ -1941,7 +2012,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0073",
@@ -1981,7 +2053,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0074",
@@ -2021,7 +2094,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0075",
@@ -2037,7 +2111,8 @@
         "discount": 11.53
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0076",
@@ -2069,7 +2144,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0077",
@@ -2101,7 +2177,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0078",
@@ -2125,7 +2202,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0079",
@@ -2141,7 +2219,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0080",
@@ -2173,7 +2252,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0081",
@@ -2205,7 +2285,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0082",
@@ -2237,7 +2318,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0083",
@@ -2253,7 +2335,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0084",
@@ -2277,7 +2360,8 @@
         "discount": 11.54
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0085",
@@ -2309,7 +2393,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0086",
@@ -2349,7 +2434,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0087",
@@ -2381,7 +2467,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0088",
@@ -2413,7 +2500,8 @@
         "discount": 8.08
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0089",
@@ -2437,7 +2525,8 @@
         "discount": 3.41
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0090",
@@ -2461,7 +2550,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0091",
@@ -2501,7 +2591,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0092",
@@ -2517,7 +2608,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0093",
@@ -2533,7 +2625,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0094",
@@ -2565,7 +2658,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0095",
@@ -2597,7 +2691,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0096",
@@ -2613,7 +2708,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0097",
@@ -2629,7 +2725,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0098",
@@ -2653,7 +2750,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0099",
@@ -2685,7 +2783,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0100",
@@ -2717,7 +2816,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0101",
@@ -2757,7 +2857,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0102",
@@ -2781,7 +2882,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0103",
@@ -2797,7 +2899,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0104",
@@ -2813,7 +2916,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0105",
@@ -2837,7 +2941,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0106",
@@ -2853,7 +2958,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0107",
@@ -2877,7 +2983,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0108",
@@ -2893,7 +3000,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0109",
@@ -2925,7 +3033,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0110",
@@ -2949,7 +3058,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0111",
@@ -2965,7 +3075,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0112",
@@ -2989,7 +3100,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0113",
@@ -3005,7 +3117,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0114",
@@ -3021,7 +3134,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0115",
@@ -3037,7 +3151,8 @@
         "discount": 153.67
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0116",
@@ -3053,7 +3168,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0117",
@@ -3069,7 +3185,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0118",
@@ -3093,7 +3210,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0119",
@@ -3109,7 +3227,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0120",
@@ -3141,7 +3260,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 1
+    "schema_version": 1,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0001",
@@ -3173,7 +3293,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0002",
@@ -3205,7 +3326,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0003",
@@ -3237,7 +3359,8 @@
         "discount": 93.16
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0004",
@@ -3253,7 +3376,8 @@
         "discount": 164.99
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0005",
@@ -3277,7 +3401,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0006",
@@ -3293,7 +3418,8 @@
         "discount": 7.89
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0007",
@@ -3309,7 +3435,8 @@
         "discount": 2.01
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0008",
@@ -3333,7 +3460,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0009",
@@ -3357,7 +3485,8 @@
         "discount": 94.67
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0010",
@@ -3373,7 +3502,8 @@
         "discount": 216.71
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0011",
@@ -3413,7 +3543,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0012",
@@ -3429,7 +3560,8 @@
         "discount": 21.04
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0013",
@@ -3461,7 +3593,8 @@
         "discount": 1.54
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0014",
@@ -3477,7 +3610,8 @@
         "discount": 49.69
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0015",
@@ -3493,7 +3627,8 @@
         "discount": 29.85
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0016",
@@ -3525,7 +3660,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0017",
@@ -3549,7 +3685,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0018",
@@ -3589,7 +3726,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   },
   {
     "order_id": "ORD-0019",
@@ -3621,7 +3759,8 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2024-06-15"
   },
   {
     "order_id": "ORD-0020",
@@ -3661,6 +3800,7 @@
         "discount": 0.0
       }
     ],
-    "schema_version": 2
+    "schema_version": 2,
+    "order_date": "2025-06-15"
   }
 ]

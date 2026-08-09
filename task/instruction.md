@@ -1,4 +1,4 @@
-The input data is stored under /app/data as three JSON document collections:
+The source data is stored under /app/data:
 
 - /app/data/customers.json
 - /app/data/products.json
@@ -8,7 +8,7 @@ Generate exactly one file:
 
 /app/report.json
 
-Do not create any other files under /app. The output must be valid UTF-8 JSON and must contain exactly these top-level fields:
+The report must contain exactly these top-level fields:
 
 - total_revenue
 - active_customers
@@ -17,42 +17,48 @@ Do not create any other files under /app. The output must be valid UTF-8 JSON an
 - top_product
 - category_revenue
 
-Data reconciliation:
+The three collections represent a small commerce system whose documents have changed over time. Treat the collections as historical document records rather than assuming that one physical document represents one permanent entity.
 
-1. Every customer, product, and order document has a logical identifier. The identifier may appear as `customer_id`/`id`, `product_id`/`id`, or `order_id`.
-2. Identifiers are case-insensitive. Normalize them by converting the selected identifier to a stripped uppercase string.
-3. Documents may contain multiple versions of the same logical entity. Each version has an integer `schema_version`. For every logical customer, product, or order, retain only the document having the highest `schema_version` before performing any aggregation.
-4. Product categories must come from the retained product document. If its category is missing, null, or blank, use `Uncategorized`.
-5. Order line-item fields are authoritative for line-level processing. Each item has `product_id`, `quantity`, `unit_price`, optional numeric `discount`, and optional `line_status`. A missing discount is zero and a missing line status is treated as active.
-6. A line whose `line_status` is `cancelled` contributes nothing to revenue, customer spend, product quantity, or category revenue.
-7. An order is counted in `cancelled_orders` when its retained document contains at least one cancelled line item. Other active lines in that same order are still included in the revenue and aggregation metrics.
-8. For an active line, net line revenue is:
-   quantity * unit_price - discount
-   where `discount` is a monetary amount for the entire line, not a percentage. Net revenue is never negative; if the computed value is below zero, use zero.
-9. Order-level status fields, when present, do not replace the line-level cancellation rule.
+Produce a business report from the order history. The report should reflect the state of the relevant customer and product information at the time each order was placed. Repeated documents may therefore represent different historical states of the same logical entity.
 
-Metrics:
+Identifiers may use different casing and may appear under either an `*_id` field or a generic `id` field. Treat logically identical identifiers consistently.
 
-`total_revenue` is the sum of net revenue from every active line in every retained order. Round the final value to two decimal places.
+For each order, use its order date when determining which historical customer or product information applies to that transaction. A historical document is applicable to a transaction when its effective period covers the transaction date. If several records for the same logical entity could apply, use the most recent applicable version.
 
-`active_customers` is the number of distinct normalized customer identifiers appearing on at least one active line in a retained order.
+Order line items contain quantity and unit price information. Some lines can contain discounts and line-level cancellation information. Cancelled lines must not contribute to sales or quantities. An order containing cancelled lines is counted as a cancelled order even when it also contains active lines.
 
-`cancelled_orders` is the number of retained logical orders containing at least one cancelled line.
+Revenue for an active line is based on its quantity, unit price, and any applicable monetary discount. Revenue must not become negative.
+
+Customer activity and customer spending are based on active order lines.
+
+Product quantities are summed from active lines.
+
+Product category revenue must use the product information applicable to the order date rather than blindly trusting a category copied into an order line. Missing or blank categories belong to `Uncategorized`.
+
+`total_revenue` is the total net revenue from active order lines, rounded to two decimal places.
+
+`active_customers` is the number of distinct customers associated with active order lines.
+
+`cancelled_orders` is the number of logical orders containing at least one cancelled line.
 
 `top_customer` must contain exactly:
+
 {
   "customer_id": "...",
   "total_spend": 0.00
 }
-It is the customer with the greatest net spend across active lines. Customer IDs are uppercase. Ties are resolved by uppercase customer ID in ASCII lexicographic order.
+
+It identifies the customer with the greatest total net spend. Customer identifiers in the output must be uppercase. If there is a tie, use the uppercase identifier that comes first lexicographically.
 
 `top_product` must contain exactly:
+
 {
   "product_id": "...",
   "quantity_sold": 0
 }
-It is the product with the greatest quantity across active lines. Product IDs are uppercase. Ties are resolved by uppercase product ID in ASCII lexicographic order.
 
-`category_revenue` maps every category having positive rounded revenue to its total net revenue. Categories come from the retained product catalog. Missing or blank product categories use `Uncategorized`. Values are rounded to two decimal places.
+It identifies the product with the greatest number of units sold on active lines. Product identifiers in the output must be uppercase. If there is a tie, use the uppercase identifier that comes first lexicographically.
 
-The report must contain no additional top-level fields.
+`category_revenue` must contain every category having positive rounded revenue, with values rounded to two decimal places.
+
+The output must be valid UTF-8 JSON and must not contain any additional top-level fields.

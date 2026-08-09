@@ -3,210 +3,315 @@
     "product_id": "prod_a",
     "product_name": "Wireless Mouse",
     "category": "Electronics",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "Prod_B",
     "product_name": "Mechanical Keyboard",
     "category": "Apparel",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "prod_c",
     "product_name": "USB-C Hub",
     "category": "Home",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "PROD_D",
     "product_name": "Laptop Stand",
     "category": "Books",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "PROD_E",
     "product_name": "Webcam",
     "category": "Sports",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "prod_f",
     "product_name": "Cotton T-Shirt",
     "category": "Beauty",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "Prod_G",
     "product_name": "Denim Jacket",
     "category": "Electronics",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "id": "prod_h",
     "product_name": "Running Shoes",
     "category": "Apparel",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "PROD_I",
     "product_name": "Hoodie",
     "category": "Home",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "PROD_J",
     "product_name": "Travel Backpack",
     "category": "Books",
-    "schema_version": 1
+    "schema_version": 2,
+    "effective_from": "2025-01-01"
   },
   {
     "product_id": "prod_k",
     "product_name": "Desk Organizer",
     "category": null,
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "Prod_L",
     "product_name": "LED Desk Lamp",
     "category": "Beauty",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "prod_m",
     "product_name": "Water Bottle",
     "category": "Electronics",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_N",
     "product_name": "Notebook Set",
     "category": "Apparel",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_O",
     "product_name": "Office Chair",
     "category": "Home",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "id": "prod_p",
     "product_name": "Python Handbook",
     "category": "Books",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "Prod_Q",
     "product_name": "Data Structures Guide",
     "category": null,
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "prod_r",
     "product_name": "Business Analytics Book",
     "category": "",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_S",
     "product_name": "Yoga Mat",
     "category": "Electronics",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_T",
     "product_name": "Resistance Bands",
     "category": "Apparel",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "prod_u",
     "product_name": "Face Wash",
     "category": "Home",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "Prod_V",
     "product_name": "Hair Dryer",
     "category": "Books",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "prod_w",
     "product_name": "Sunscreen",
     "category": "Sports",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "id": "PROD_X",
     "product_name": "Bluetooth Speaker",
     "category": "",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_Y",
     "product_name": "Power Bank",
     "category": "Electronics",
-    "schema_version": 1
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "prod_a",
     "product_name": "Wireless Mouse",
     "category": "Updated-Electronics",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "Prod_B",
     "product_name": "Mechanical Keyboard",
     "category": "Apparel",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "prod_c",
     "product_name": "USB-C Hub",
     "category": "Home",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_D",
     "product_name": "Laptop Stand",
     "category": "Updated-Books",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_E",
     "product_name": "Webcam",
     "category": "Sports",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "prod_f",
     "product_name": "Cotton T-Shirt",
     "category": "Beauty",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "Prod_G",
     "product_name": "Denim Jacket",
     "category": "Updated-Electronics",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "id": "prod_h",
     "product_name": "Running Shoes",
     "category": "Apparel",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_I",
     "product_name": "Hoodie",
     "category": "Home",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
   },
   {
     "product_id": "PROD_J",
     "product_name": "Travel Backpack",
     "category": "Updated-Books",
-    "schema_version": 2
+    "schema_version": 2,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "prod_a",
+    "product_name": "Wireless Mouse",
+    "category": "Legacy-Electronics",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "Prod_B",
+    "product_name": "Mechanical Keyboard",
+    "category": "Apparel",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "prod_c",
+    "product_name": "USB-C Hub",
+    "category": "Legacy-Home",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "PROD_D",
+    "product_name": "Laptop Stand",
+    "category": "Books",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "PROD_E",
+    "product_name": "Webcam",
+    "category": "Legacy-Sports",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "prod_f",
+    "product_name": "Cotton T-Shirt",
+    "category": "Beauty",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "Prod_G",
+    "product_name": "Denim Jacket",
+    "category": "Legacy-Electronics",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "id": "prod_h",
+    "product_name": "Running Shoes",
+    "category": "Apparel",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "PROD_I",
+    "product_name": "Hoodie",
+    "category": "Legacy-Home",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
+  },
+  {
+    "product_id": "PROD_J",
+    "product_name": "Travel Backpack",
+    "category": "Books",
+    "schema_version": 1,
+    "effective_from": "2024-01-01"
   }
 ]

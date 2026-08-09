@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 
 import pytest
 
@@ -9,67 +10,125 @@ DATA_DIR = "/app/data"
 
 
 def normalize_id(value):
-    return str(value or "").strip().upper()
+    if value is None:
+        return ""
+
+    return str(value).strip().upper()
 
 
-def latest_versions(records, id_fields):
-    selected = {}
+def parse_date(value):
+    if not value:
+        return datetime.min
+
+    try:
+        return datetime.strptime(
+            str(value)[:10],
+            "%Y-%m-%d",
+        )
+    except ValueError:
+        return datetime.min
+
+
+def entity_id(record):
+    for field in ("customer_id", "product_id", "id"):
+        value = record.get(field)
+
+        if value is not None and str(value).strip():
+            return normalize_id(value)
+
+    return ""
+
+
+def applicable_record(records, target_date):
+    candidates = []
 
     for record in records:
-        raw_id = ""
+        effective_from = parse_date(
+            record.get("effective_from", "1900-01-01")
+        )
 
-        for field in id_fields:
-            if record.get(field):
-                raw_id = record[field]
-                break
+        if effective_from <= target_date:
+            candidates.append(
+                (
+                    effective_from,
+                    int(record.get("schema_version", 1)),
+                    record,
+                )
+            )
 
-        entity_id = normalize_id(raw_id)
+    if not candidates:
+        return None
 
-        if not entity_id:
+    candidates.sort(
+        key=lambda value: (value[0], value[1]),
+        reverse=True,
+    )
+
+    return candidates[0][2]
+
+
+def is_cancelled_line(item, order):
+    status = str(
+        item.get("status", "")
+    ).strip().lower()
+
+    if status == "cancelled":
+        return True
+
+    if item.get("cancelled") is True:
+        return True
+
+    if item.get("is_cancelled") is True:
+        return True
+
+    return (
+        str(order.get("status", "")).strip().lower()
+        == "cancelled"
+    )
+
+
+def discount_value(item):
+    for field in (
+        "discount",
+        "discount_amount",
+        "line_discount",
+    ):
+        value = item.get(field)
+
+        if value is None or value == "":
             continue
 
-        version = int(record.get("schema_version", 1))
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return 0.0
 
-        if (
-            entity_id not in selected
-            or version > int(selected[entity_id].get("schema_version", 1))
-        ):
-            selected[entity_id] = record
-
-    return selected
-
-
-def load_data():
-    with open(os.path.join(DATA_DIR, "customers.json"), encoding="utf-8") as f:
-        customers = json.load(f)
-
-    with open(os.path.join(DATA_DIR, "products.json"), encoding="utf-8") as f:
-        products = json.load(f)
-
-    with open(os.path.join(DATA_DIR, "orders.json"), encoding="utf-8") as f:
-        orders = json.load(f)
-
-    return customers, products, orders
+    return 0.0
 
 
 def test_report_file_exists():
-    """The required report artifact must be created."""
-    assert os.path.exists(REPORT_PATH)
+    assert os.path.exists(REPORT_PATH), (
+        f"Output file '{REPORT_PATH}' does not exist."
+    )
 
 
 def test_no_extra_json_files():
-    """The application root may contain only report.json as an output JSON file."""
     for item in os.listdir("/app"):
         if item.endswith(".json") and item != "report.json":
-            pytest.fail(f"Unauthorized extra JSON file found: {item}")
+            pytest.fail(
+                f"Unauthorized extra JSON file found in /app: {item}"
+            )
 
 
 def test_report_schema_and_types():
-    """The report must contain exactly the documented schema and JSON types."""
-    with open(REPORT_PATH, encoding="utf-8") as f:
+    with open(
+        REPORT_PATH,
+        "r",
+        encoding="utf-8",
+    ) as f:
         report = json.load(f)
 
-    expected = {
+    expected_keys = {
         "total_revenue",
         "active_customers",
         "cancelled_orders",
@@ -78,150 +137,275 @@ def test_report_schema_and_types():
         "category_revenue",
     }
 
-    assert set(report) == expected
+    assert set(report.keys()) == expected_keys
 
-    assert isinstance(report["total_revenue"], (int, float))
-    assert isinstance(report["active_customers"], int)
-    assert isinstance(report["cancelled_orders"], int)
+    assert isinstance(
+        report["total_revenue"],
+        (int, float),
+    )
 
-    assert set(report["top_customer"]) == {
+    assert isinstance(
+        report["active_customers"],
+        int,
+    )
+
+    assert isinstance(
+        report["cancelled_orders"],
+        int,
+    )
+
+    assert isinstance(
+        report["top_customer"],
+        dict,
+    )
+
+    assert isinstance(
+        report["top_product"],
+        dict,
+    )
+
+    assert isinstance(
+        report["category_revenue"],
+        dict,
+    )
+
+    assert set(report["top_customer"].keys()) == {
         "customer_id",
         "total_spend",
     }
 
-    assert set(report["top_product"]) == {
+    assert set(report["top_product"].keys()) == {
         "product_id",
         "quantity_sold",
     }
 
-    assert isinstance(report["top_customer"]["customer_id"], str)
-    assert isinstance(report["top_customer"]["total_spend"], (int, float))
-    assert isinstance(report["top_product"]["product_id"], str)
-    assert isinstance(report["top_product"]["quantity_sold"], int)
-    assert isinstance(report["category_revenue"], dict)
+    assert isinstance(
+        report["top_customer"]["customer_id"],
+        str,
+    )
+
+    assert isinstance(
+        report["top_customer"]["total_spend"],
+        (int, float),
+    )
+
+    assert isinstance(
+        report["top_product"]["product_id"],
+        str,
+    )
+
+    assert isinstance(
+        report["top_product"]["quantity_sold"],
+        int,
+    )
 
 
-def test_report_matches_independent_reconciliation():
-    """Recompute all metrics after version reconciliation and line-level filtering."""
-    customers, products, orders = load_data()
+def test_report_matches_temporal_reconciliation():
+    with open(
+        os.path.join(DATA_DIR, "customers.json"),
+        "r",
+        encoding="utf-8",
+    ) as f:
+        customers = json.load(f)
 
-    customer_map = latest_versions(customers, ["customer_id", "id"])
-    product_map = latest_versions(products, ["product_id", "id"])
-    order_map = latest_versions(orders, ["order_id", "id"])
+    with open(
+        os.path.join(DATA_DIR, "products.json"),
+        "r",
+        encoding="utf-8",
+    ) as f:
+        products = json.load(f)
 
-    # Ensure versioned logical entities are actually being reconciled.
-    assert len(customer_map) < len(customers)
-    assert len(product_map) < len(products)
-    assert len(order_map) < len(orders)
-
-    product_categories = {}
-
-    for pid, product in product_map.items():
-        category = product.get("category")
-
-        if category is None or not str(category).strip():
-            category = "Uncategorized"
-        else:
-            category = str(category).strip()
-
-        product_categories[pid] = category
+    with open(
+        os.path.join(DATA_DIR, "orders.json"),
+        "r",
+        encoding="utf-8",
+    ) as f:
+        orders = json.load(f)
 
     total_revenue = 0.0
     cancelled_orders = 0
-    active_customers = set()
 
+    active_customers = set()
     customer_spend = {}
     product_quantities = {}
     category_revenue = {}
 
-    for order in order_map.values():
-        customer_id = normalize_id(order.get("customer_id"))
-        has_cancelled_line = False
+    for order in orders:
+        order_date = parse_date(
+            order.get("order_date")
+        )
 
-        for item in order.get("items", []):
-            status = str(
-                item.get("line_status", "active")
-            ).strip().lower()
+        items = order.get("items", [])
 
-            if status == "cancelled":
-                has_cancelled_line = True
-                continue
+        if not isinstance(items, list):
+            items = []
 
-            quantity = int(item.get("quantity", 0))
-            unit_price = float(item.get("unit_price", 0.0))
-            discount = float(item.get("discount", 0.0))
+        has_cancelled_line = any(
+            is_cancelled_line(item, order)
+            for item in items
+        )
 
-            net = max(
-                0.0,
-                quantity * unit_price - discount
+        if (
+            str(order.get("status", "")).strip().lower()
+            == "cancelled"
+            or has_cancelled_line
+        ):
+            cancelled_orders += 1
+
+        customer_records = [
+            customer
+            for customer in customers
+            if entity_id(customer)
+            == normalize_id(order.get("customer_id"))
+        ]
+
+        customer = applicable_record(
+            customer_records,
+            order_date,
+        )
+
+        if customer:
+            customer_id = entity_id(customer)
+        else:
+            customer_id = normalize_id(
+                order.get("customer_id")
             )
 
-            if customer_id:
-                active_customers.add(customer_id)
-                customer_spend[customer_id] = (
-                    customer_spend.get(customer_id, 0.0) + net
-                )
+        order_spend = 0.0
 
-            product_id = normalize_id(item.get("product_id"))
+        for item in items:
+            if is_cancelled_line(item, order):
+                continue
+
+            product_id = normalize_id(
+                item.get("product_id") or item.get("id")
+            )
+
+            quantity = int(
+                item.get("quantity", 0)
+            )
+
+            unit_price = float(
+                item.get("unit_price", 0.0)
+            )
+
+            discount = discount_value(item)
+
+            line_revenue = max(
+                0.0,
+                quantity * unit_price - discount,
+            )
+
+            order_spend += line_revenue
 
             if product_id:
                 product_quantities[product_id] = (
-                    product_quantities.get(product_id, 0) + quantity
+                    product_quantities.get(product_id, 0)
+                    + quantity
                 )
 
-            category = product_categories.get(
-                product_id,
-                "Uncategorized"
+            product_records = [
+                product
+                for product in products
+                if entity_id(product) == product_id
+            ]
+
+            product = applicable_record(
+                product_records,
+                order_date,
             )
+
+            if product is None:
+                category = "Uncategorized"
+            else:
+                raw_category = product.get("category")
+
+                if (
+                    raw_category is None
+                    or not str(raw_category).strip()
+                ):
+                    category = "Uncategorized"
+                else:
+                    category = str(
+                        raw_category
+                    ).strip()
 
             category_revenue[category] = (
-                category_revenue.get(category, 0.0) + net
+                category_revenue.get(category, 0.0)
+                + line_revenue
             )
 
-            total_revenue += net
+        total_revenue += order_spend
 
-        if has_cancelled_line:
-            cancelled_orders += 1
+        if order_spend > 0 and customer_id:
+            active_customers.add(customer_id)
 
-    top_customer_id = min(
-        customer_spend,
-        key=lambda cid: (-round(customer_spend[cid], 2), cid)
+            customer_spend[customer_id] = (
+                customer_spend.get(customer_id, 0.0)
+                + order_spend
+            )
+
+    report = json.load(
+        open(
+            REPORT_PATH,
+            "r",
+            encoding="utf-8",
+        )
     )
-
-    top_product_id = min(
-        product_quantities,
-        key=lambda pid: (-product_quantities[pid], pid)
-    )
-
-    with open(REPORT_PATH, encoding="utf-8") as f:
-        report = json.load(f)
 
     assert report["total_revenue"] == pytest.approx(
         round(total_revenue, 2),
         abs=1e-6,
     )
 
-    assert report["active_customers"] == len(active_customers)
+    assert report["active_customers"] == len(
+        active_customers
+    )
 
     assert report["cancelled_orders"] == cancelled_orders
 
-    assert report["top_customer"]["customer_id"] == top_customer_id
+    if customer_spend:
+        best_customer = sorted(
+            customer_spend.items(),
+            key=lambda pair: (
+                -round(pair[1], 2),
+                pair[0],
+            ),
+        )[0]
 
-    assert report["top_customer"]["total_spend"] == pytest.approx(
-        round(customer_spend[top_customer_id], 2),
-        abs=1e-6,
-    )
+        assert (
+            report["top_customer"]["customer_id"]
+            == best_customer[0]
+        )
 
-    assert report["top_product"]["product_id"] == top_product_id
+        assert report["top_customer"]["total_spend"] == pytest.approx(
+            round(best_customer[1], 2),
+            abs=1e-6,
+        )
 
-    assert report["top_product"]["quantity_sold"] == (
-        product_quantities[top_product_id]
-    )
+    if product_quantities:
+        best_product = sorted(
+            product_quantities.items(),
+            key=lambda pair: (
+                -pair[1],
+                pair[0],
+            ),
+        )[0]
+
+        assert (
+            report["top_product"]["product_id"]
+            == best_product[0]
+        )
+
+        assert (
+            report["top_product"]["quantity_sold"]
+            == best_product[1]
+        )
 
     expected_categories = {
-        category: round(value, 2)
-        for category, value in category_revenue.items()
-        if round(value, 2) > 0
+        category: round(revenue, 2)
+        for category, revenue in category_revenue.items()
+        if round(revenue, 2) > 0
     }
 
     assert report["category_revenue"] == expected_categories
