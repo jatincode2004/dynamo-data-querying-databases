@@ -8,21 +8,28 @@
         "product_id": "PROD_S",
         "category": "Electronics",
         "quantity": 5,
-        "unit_price": 151.94
+        "unit_price": 151.94,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 4,
-        "unit_price": 26.46
+        "unit_price": 26.46,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_D",
         "category": "Books",
         "quantity": 7,
-        "unit_price": 72.6
+        "unit_price": 72.6,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0002",
@@ -33,21 +40,28 @@
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 9,
-        "unit_price": 26.49
+        "unit_price": 26.49,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 6,
-        "unit_price": 107.31
+        "unit_price": 107.31,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 9,
-        "unit_price": 66.14
+        "unit_price": 66.14,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0003",
@@ -58,21 +72,28 @@
         "product_id": "Prod_L",
         "category": "Beauty",
         "quantity": 6,
-        "unit_price": 119.23
+        "unit_price": 119.23,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 8,
-        "unit_price": 24.76
+        "unit_price": 24.76,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_k",
         "category": null,
         "quantity": 5,
-        "unit_price": 186.31
+        "unit_price": 186.31,
+        "line_status": "active",
+        "discount": 93.16
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0004",
@@ -83,9 +104,12 @@
         "product_id": "prod_k",
         "category": null,
         "quantity": 7,
-        "unit_price": 157.13
+        "unit_price": 157.13,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0005",
@@ -96,15 +120,20 @@
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 8,
-        "unit_price": 131.24
+        "unit_price": 131.24,
+        "line_status": "active",
+        "discount": 104.99
       },
       {
         "product_id": "PROD_H",
         "category": "Apparel",
         "quantity": 8,
-        "unit_price": 220.73
+        "unit_price": 220.73,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0006",
@@ -115,9 +144,12 @@
         "product_id": "prod_f",
         "category": "Beauty",
         "quantity": 2,
-        "unit_price": 26.29
+        "unit_price": 26.29,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0007",
@@ -128,9 +160,12 @@
         "product_id": "Prod_G",
         "category": "electronics",
         "quantity": 1,
-        "unit_price": 13.39
+        "unit_price": 13.39,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0008",
@@ -141,15 +176,20 @@
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 8,
-        "unit_price": 209.26
+        "unit_price": 209.26,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_H",
         "category": "Apparel",
         "quantity": 9,
-        "unit_price": 34.07
+        "unit_price": 34.07,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0009",
@@ -160,15 +200,20 @@
         "product_id": "PROD_H",
         "category": "Apparel",
         "quantity": 2,
-        "unit_price": 23.63
+        "unit_price": 23.63,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 7,
-        "unit_price": 135.24
+        "unit_price": 135.24,
+        "line_status": "active",
+        "discount": 94.67
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0010",
@@ -179,9 +224,12 @@
         "product_id": "prod_f",
         "category": "Beauty",
         "quantity": 8,
-        "unit_price": 180.59
+        "unit_price": 180.59,
+        "line_status": "active",
+        "discount": 144.47
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0011",
@@ -192,27 +240,36 @@
         "product_id": "PROD_R",
         "category": null,
         "quantity": 2,
-        "unit_price": 251.82
+        "unit_price": 251.82,
+        "line_status": "cancelled",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_M",
         "category": null,
         "quantity": 4,
-        "unit_price": 66.16
+        "unit_price": 66.16,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_f",
         "category": null,
         "quantity": 1,
-        "unit_price": 168.89
+        "unit_price": 168.89,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_k",
         "category": null,
         "quantity": 8,
-        "unit_price": 58.22
+        "unit_price": 58.22,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0012",
@@ -223,9 +280,12 @@
         "product_id": "PROD_S",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 140.24
+        "unit_price": 140.24,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0013",
@@ -236,21 +296,28 @@
         "product_id": "PROD_H",
         "category": "",
         "quantity": 8,
-        "unit_price": 61.15
+        "unit_price": 61.15,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_T",
         "category": "",
         "quantity": 1,
-        "unit_price": 238.96
+        "unit_price": 238.96,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": "",
         "quantity": 1,
-        "unit_price": 15.4
+        "unit_price": 15.4,
+        "line_status": "active",
+        "discount": 1.54
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0014",
@@ -261,9 +328,12 @@
         "product_id": "PROD_C",
         "category": "home",
         "quantity": 2,
-        "unit_price": 165.64
+        "unit_price": 165.64,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0015",
@@ -274,9 +344,12 @@
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 9,
-        "unit_price": 22.11
+        "unit_price": 22.11,
+        "line_status": "active",
+        "discount": 19.9
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0016",
@@ -287,21 +360,28 @@
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 5,
-        "unit_price": 46.23
+        "unit_price": 46.23,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_k",
         "category": null,
         "quantity": 9,
-        "unit_price": 32.99
+        "unit_price": 32.99,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_S",
         "category": "Electronics",
         "quantity": 4,
-        "unit_price": 34.18
+        "unit_price": 34.18,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0017",
@@ -312,15 +392,20 @@
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 5,
-        "unit_price": 19.42
+        "unit_price": 19.42,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 5,
-        "unit_price": 240.8
+        "unit_price": 240.8,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0018",
@@ -331,27 +416,36 @@
         "product_id": "PROD_D",
         "category": "Books",
         "quantity": 6,
-        "unit_price": 6.31
+        "unit_price": 6.31,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 4,
-        "unit_price": 9.81
+        "unit_price": 9.81,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_X",
         "category": "",
         "quantity": 7,
-        "unit_price": 25.6
+        "unit_price": 25.6,
+        "line_status": "active",
+        "discount": 17.92
       },
       {
         "product_id": "PROD_H",
         "category": "Apparel",
         "quantity": 5,
-        "unit_price": 205.22
+        "unit_price": 205.22,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0019",
@@ -362,21 +456,28 @@
         "product_id": "PROD_X",
         "category": "",
         "quantity": 9,
-        "unit_price": 17.18
+        "unit_price": 17.18,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 2,
-        "unit_price": 180.45
+        "unit_price": 180.45,
+        "line_status": "active",
+        "discount": 36.09
       },
       {
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 1,
-        "unit_price": 215.26
+        "unit_price": 215.26,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0020",
@@ -387,27 +488,36 @@
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 2,
-        "unit_price": 19.74
+        "unit_price": 19.74,
+        "line_status": "active",
+        "discount": 3.95
       },
       {
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 5,
-        "unit_price": 238.65
+        "unit_price": 238.65,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 3,
-        "unit_price": 116.78
+        "unit_price": 116.78,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 2,
-        "unit_price": 170.25
+        "unit_price": 170.25,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0021",
@@ -418,9 +528,12 @@
         "product_id": "PROD_N",
         "category": "apparel",
         "quantity": 1,
-        "unit_price": 53.11
+        "unit_price": 53.11,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0022",
@@ -431,21 +544,28 @@
         "product_id": "prod_k",
         "category": null,
         "quantity": 7,
-        "unit_price": 17.12
+        "unit_price": 17.12,
+        "line_status": "cancelled",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_N",
         "category": null,
         "quantity": 7,
-        "unit_price": 69.97
+        "unit_price": 69.97,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_M",
         "category": null,
         "quantity": 8,
-        "unit_price": 51.73
+        "unit_price": 51.73,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0023",
@@ -456,15 +576,20 @@
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 2,
-        "unit_price": 28.87
+        "unit_price": 28.87,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 2,
-        "unit_price": 240.98
+        "unit_price": 240.98,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0024",
@@ -475,21 +600,28 @@
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 2,
-        "unit_price": 179.54
+        "unit_price": 179.54,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 3,
-        "unit_price": 169.07
+        "unit_price": 169.07,
+        "line_status": "active",
+        "discount": 50.72
       },
       {
         "product_id": "prod_p",
         "category": "Books",
         "quantity": 8,
-        "unit_price": 13.05
+        "unit_price": 13.05,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0025",
@@ -500,21 +632,28 @@
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 8,
-        "unit_price": 28.48
+        "unit_price": 28.48,
+        "line_status": "active",
+        "discount": 22.78
       },
       {
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 4,
-        "unit_price": 21.53
+        "unit_price": 21.53,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_N",
         "category": "Apparel",
         "quantity": 4,
-        "unit_price": 33.56
+        "unit_price": 33.56,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0026",
@@ -525,15 +664,20 @@
         "product_id": "prod_u",
         "category": "",
         "quantity": 3,
-        "unit_price": 148.12
+        "unit_price": 148.12,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_H",
         "category": "",
         "quantity": 5,
-        "unit_price": 8.11
+        "unit_price": 8.11,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0027",
@@ -544,27 +688,36 @@
         "product_id": "PROD_T",
         "category": "Apparel",
         "quantity": 3,
-        "unit_price": 253.75
+        "unit_price": 253.75,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 2,
-        "unit_price": 23.29
+        "unit_price": 23.29,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 1,
-        "unit_price": 169.4
+        "unit_price": 169.4,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 3,
-        "unit_price": 76.35
+        "unit_price": 76.35,
+        "line_status": "active",
+        "discount": 22.91
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0028",
@@ -575,9 +728,12 @@
         "product_id": "Prod_L",
         "category": "beauty",
         "quantity": 7,
-        "unit_price": 149.76
+        "unit_price": 149.76,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0029",
@@ -588,27 +744,36 @@
         "product_id": "prod_k",
         "category": null,
         "quantity": 9,
-        "unit_price": 101.58
+        "unit_price": 101.58,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 4,
-        "unit_price": 19.0
+        "unit_price": 19.0,
+        "line_status": "active",
+        "discount": 7.6
       },
       {
         "product_id": "prod_p",
         "category": "Books",
         "quantity": 7,
-        "unit_price": 78.95
+        "unit_price": 78.95,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_Y",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 106.56
+        "unit_price": 106.56,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0030",
@@ -619,21 +784,28 @@
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 34.62
+        "unit_price": 34.62,
+        "line_status": "active",
+        "discount": 3.46
       },
       {
         "product_id": "PROD_N",
         "category": "Apparel",
         "quantity": 1,
-        "unit_price": 13.22
+        "unit_price": 13.22,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 7,
-        "unit_price": 231.57
+        "unit_price": 231.57,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0031",
@@ -644,21 +816,28 @@
         "product_id": "PROD_X",
         "category": "",
         "quantity": 6,
-        "unit_price": 11.92
+        "unit_price": 11.92,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 4,
-        "unit_price": 21.4
+        "unit_price": 21.4,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 1,
-        "unit_price": 50.67
+        "unit_price": 50.67,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0032",
@@ -669,21 +848,28 @@
         "product_id": "prod_a",
         "category": "Electronics",
         "quantity": 9,
-        "unit_price": 29.56
+        "unit_price": 29.56,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 3,
-        "unit_price": 23.47
+        "unit_price": 23.47,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_R",
         "category": "",
         "quantity": 1,
-        "unit_price": 88.73
+        "unit_price": 88.73,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0033",
@@ -694,21 +880,28 @@
         "product_id": "PROD_E",
         "category": null,
         "quantity": 5,
-        "unit_price": 110.47
+        "unit_price": 110.47,
+        "line_status": "cancelled",
+        "discount": 0.0
       },
       {
         "product_id": "prod_f",
         "category": null,
         "quantity": 5,
-        "unit_price": 23.95
+        "unit_price": 23.95,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_X",
         "category": null,
         "quantity": 6,
-        "unit_price": 7.98
+        "unit_price": 7.98,
+        "line_status": "active",
+        "discount": 4.79
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0034",
@@ -719,27 +912,36 @@
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 9,
-        "unit_price": 171.32
+        "unit_price": 171.32,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 28.76
+        "unit_price": 28.76,
+        "line_status": "active",
+        "discount": 2.88
       },
       {
         "product_id": "PROD_Y",
         "category": "Electronics",
         "quantity": 3,
-        "unit_price": 79.74
+        "unit_price": 79.74,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 1,
-        "unit_price": 78.6
+        "unit_price": 78.6,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0035",
@@ -750,9 +952,12 @@
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 8,
-        "unit_price": 99.94
+        "unit_price": 99.94,
+        "line_status": "active",
+        "discount": 79.95
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0036",
@@ -763,9 +968,12 @@
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 3,
-        "unit_price": 58.7
+        "unit_price": 58.7,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0037",
@@ -776,9 +984,12 @@
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 3,
-        "unit_price": 104.79
+        "unit_price": 104.79,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0038",
@@ -789,21 +1000,28 @@
         "product_id": "PROD_N",
         "category": "Apparel",
         "quantity": 7,
-        "unit_price": 7.04
+        "unit_price": 7.04,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 1,
-        "unit_price": 78.95
+        "unit_price": 78.95,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_L",
         "category": "Beauty",
         "quantity": 7,
-        "unit_price": 26.25
+        "unit_price": 26.25,
+        "line_status": "active",
+        "discount": 18.38
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0039",
@@ -814,27 +1032,36 @@
         "product_id": "PROD_M",
         "category": "",
         "quantity": 1,
-        "unit_price": 134.07
+        "unit_price": 134.07,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_Y",
         "category": "",
         "quantity": 8,
-        "unit_price": 43.78
+        "unit_price": 43.78,
+        "line_status": "active",
+        "discount": 35.02
       },
       {
         "product_id": "PROD_N",
         "category": "",
         "quantity": 5,
-        "unit_price": 99.88
+        "unit_price": 99.88,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_B",
         "category": "",
         "quantity": 5,
-        "unit_price": 14.08
+        "unit_price": 14.08,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0040",
@@ -845,9 +1072,12 @@
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 2,
-        "unit_price": 56.54
+        "unit_price": 56.54,
+        "line_status": "active",
+        "discount": 11.31
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0041",
@@ -858,21 +1088,28 @@
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 6,
-        "unit_price": 32.64
+        "unit_price": 32.64,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_f",
         "category": "Beauty",
         "quantity": 4,
-        "unit_price": 85.22
+        "unit_price": 85.22,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 4,
-        "unit_price": 67.09
+        "unit_price": 67.09,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0042",
@@ -883,15 +1120,20 @@
         "product_id": "prod_u",
         "category": "home",
         "quantity": 2,
-        "unit_price": 84.07
+        "unit_price": 84.07,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_Y",
         "category": "electronics",
         "quantity": 3,
-        "unit_price": 57.73
+        "unit_price": 57.73,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0043",
@@ -902,15 +1144,20 @@
         "product_id": "PROD_H",
         "category": "Apparel",
         "quantity": 4,
-        "unit_price": 32.83
+        "unit_price": 32.83,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 7,
-        "unit_price": 215.27
+        "unit_price": 215.27,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0044",
@@ -921,9 +1168,12 @@
         "product_id": "prod_k",
         "category": null,
         "quantity": 3,
-        "unit_price": 73.31
+        "unit_price": 73.31,
+        "line_status": "cancelled",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0045",
@@ -934,21 +1184,28 @@
         "product_id": "PROD_T",
         "category": "Apparel",
         "quantity": 7,
-        "unit_price": 146.06
+        "unit_price": 146.06,
+        "line_status": "active",
+        "discount": 102.24
       },
       {
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 5,
-        "unit_price": 109.21
+        "unit_price": 109.21,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 7,
-        "unit_price": 151.24
+        "unit_price": 151.24,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0046",
@@ -959,15 +1216,20 @@
         "product_id": "prod_k",
         "category": null,
         "quantity": 3,
-        "unit_price": 31.99
+        "unit_price": 31.99,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_f",
         "category": "Beauty",
         "quantity": 2,
-        "unit_price": 127.31
+        "unit_price": 127.31,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0047",
@@ -978,15 +1240,20 @@
         "product_id": "PROD_Y",
         "category": "Electronics",
         "quantity": 7,
-        "unit_price": 118.46
+        "unit_price": 118.46,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 6,
-        "unit_price": 149.43
+        "unit_price": 149.43,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0048",
@@ -997,21 +1264,28 @@
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 7,
-        "unit_price": 156.72
+        "unit_price": 156.72,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 9,
-        "unit_price": 83.55
+        "unit_price": 83.55,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_D",
         "category": "Books",
         "quantity": 3,
-        "unit_price": 11.81
+        "unit_price": 11.81,
+        "line_status": "active",
+        "discount": 3.54
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0049",
@@ -1022,27 +1296,36 @@
         "product_id": "prod_f",
         "category": "beauty",
         "quantity": 6,
-        "unit_price": 18.89
+        "unit_price": 18.89,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 1,
-        "unit_price": 209.25
+        "unit_price": 209.25,
+        "line_status": "active",
+        "discount": 20.93
       },
       {
         "product_id": "PROD_N",
         "category": "apparel",
         "quantity": 7,
-        "unit_price": 97.66
+        "unit_price": 97.66,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_H",
         "category": "apparel",
         "quantity": 6,
-        "unit_price": 111.23
+        "unit_price": 111.23,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0050",
@@ -1053,15 +1336,20 @@
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 5,
-        "unit_price": 19.95
+        "unit_price": 19.95,
+        "line_status": "active",
+        "discount": 9.98
       },
       {
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 73.91
+        "unit_price": 73.91,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0051",
@@ -1072,15 +1360,20 @@
         "product_id": "PROD_D",
         "category": "Books",
         "quantity": 3,
-        "unit_price": 95.87
+        "unit_price": 95.87,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 9,
-        "unit_price": 255.36
+        "unit_price": 255.36,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0052",
@@ -1091,27 +1384,36 @@
         "product_id": "PROD_H",
         "category": "",
         "quantity": 6,
-        "unit_price": 196.71
+        "unit_price": 196.71,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_D",
         "category": "",
         "quantity": 3,
-        "unit_price": 94.62
+        "unit_price": 94.62,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_I",
         "category": "",
         "quantity": 8,
-        "unit_price": 65.39
+        "unit_price": 65.39,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_G",
         "category": "",
         "quantity": 9,
-        "unit_price": 196.44
+        "unit_price": 196.44,
+        "line_status": "active",
+        "discount": 176.8
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0053",
@@ -1122,21 +1424,28 @@
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 8,
-        "unit_price": 200.6
+        "unit_price": 200.6,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 8,
-        "unit_price": 189.51
+        "unit_price": 189.51,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_R",
         "category": "",
         "quantity": 2,
-        "unit_price": 34.14
+        "unit_price": 34.14,
+        "line_status": "active",
+        "discount": 6.83
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0054",
@@ -1147,15 +1456,20 @@
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 3,
-        "unit_price": 16.2
+        "unit_price": 16.2,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 3,
-        "unit_price": 19.32
+        "unit_price": 19.32,
+        "line_status": "active",
+        "discount": 5.8
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0055",
@@ -1166,21 +1480,28 @@
         "product_id": "PROD_O",
         "category": null,
         "quantity": 6,
-        "unit_price": 168.38
+        "unit_price": 168.38,
+        "line_status": "cancelled",
+        "discount": 101.03
       },
       {
         "product_id": "PROD_Y",
         "category": null,
         "quantity": 6,
-        "unit_price": 232.77
+        "unit_price": 232.77,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_R",
         "category": null,
         "quantity": 6,
-        "unit_price": 119.48
+        "unit_price": 119.48,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0056",
@@ -1191,21 +1512,28 @@
         "product_id": "Prod_G",
         "category": "electronics",
         "quantity": 2,
-        "unit_price": 150.9
+        "unit_price": 150.9,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_u",
         "category": "home",
         "quantity": 3,
-        "unit_price": 9.95
+        "unit_price": 9.95,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_T",
         "category": "apparel",
         "quantity": 3,
-        "unit_price": 9.18
+        "unit_price": 9.18,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0057",
@@ -1216,27 +1544,36 @@
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 9,
-        "unit_price": 114.37
+        "unit_price": 114.37,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 3,
-        "unit_price": 26.06
+        "unit_price": 26.06,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_Y",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 23.17
+        "unit_price": 23.17,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 9,
-        "unit_price": 199.88
+        "unit_price": 199.88,
+        "line_status": "active",
+        "discount": 179.89
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0058",
@@ -1247,15 +1584,20 @@
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 2,
-        "unit_price": 12.61
+        "unit_price": 12.61,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_k",
         "category": null,
         "quantity": 2,
-        "unit_price": 55.16
+        "unit_price": 55.16,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0059",
@@ -1266,15 +1608,20 @@
         "product_id": "Prod_B",
         "category": "Apparel",
         "quantity": 9,
-        "unit_price": 249.55
+        "unit_price": 249.55,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 29.5
+        "unit_price": 29.5,
+        "line_status": "active",
+        "discount": 2.95
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0060",
@@ -1285,21 +1632,28 @@
         "product_id": "PROD_T",
         "category": "Apparel",
         "quantity": 4,
-        "unit_price": 25.97
+        "unit_price": 25.97,
+        "line_status": "active",
+        "discount": 10.39
       },
       {
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 5,
-        "unit_price": 21.9
+        "unit_price": 21.9,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 4,
-        "unit_price": 7.01
+        "unit_price": 7.01,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0061",
@@ -1310,21 +1664,28 @@
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 2,
-        "unit_price": 17.95
+        "unit_price": 17.95,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 4,
-        "unit_price": 111.48
+        "unit_price": 111.48,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 3,
-        "unit_price": 243.81
+        "unit_price": 243.81,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0062",
@@ -1335,15 +1696,20 @@
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 6,
-        "unit_price": 178.07
+        "unit_price": 178.07,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_T",
         "category": "Apparel",
         "quantity": 9,
-        "unit_price": 105.12
+        "unit_price": 105.12,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0063",
@@ -1354,9 +1720,12 @@
         "product_id": "PROD_X",
         "category": "",
         "quantity": 8,
-        "unit_price": 12.31
+        "unit_price": 12.31,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0064",
@@ -1367,21 +1736,28 @@
         "product_id": "PROD_H",
         "category": "Apparel",
         "quantity": 7,
-        "unit_price": 217.36
+        "unit_price": 217.36,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_k",
         "category": null,
         "quantity": 5,
-        "unit_price": 45.19
+        "unit_price": 45.19,
+        "line_status": "active",
+        "discount": 22.59
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 3,
-        "unit_price": 18.39
+        "unit_price": 18.39,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0065",
@@ -1392,9 +1768,12 @@
         "product_id": "prod_f",
         "category": "",
         "quantity": 1,
-        "unit_price": 118.99
+        "unit_price": 118.99,
+        "line_status": "active",
+        "discount": 11.9
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0066",
@@ -1405,9 +1784,12 @@
         "product_id": "PROD_C",
         "category": null,
         "quantity": 8,
-        "unit_price": 52.5
+        "unit_price": 52.5,
+        "line_status": "cancelled",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0067",
@@ -1418,21 +1800,28 @@
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 5,
-        "unit_price": 28.84
+        "unit_price": 28.84,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_f",
         "category": "Beauty",
         "quantity": 6,
-        "unit_price": 193.91
+        "unit_price": 193.91,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 7,
-        "unit_price": 87.21
+        "unit_price": 87.21,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0068",
@@ -1443,9 +1832,12 @@
         "product_id": "prod_k",
         "category": null,
         "quantity": 7,
-        "unit_price": 26.81
+        "unit_price": 26.81,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0069",
@@ -1456,27 +1848,36 @@
         "product_id": "prod_f",
         "category": "Beauty",
         "quantity": 6,
-        "unit_price": 192.5
+        "unit_price": 192.5,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 8,
-        "unit_price": 129.16
+        "unit_price": 129.16,
+        "line_status": "active",
+        "discount": 103.33
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 1,
-        "unit_price": 9.98
+        "unit_price": 9.98,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_N",
         "category": "Apparel",
         "quantity": 6,
-        "unit_price": 171.99
+        "unit_price": 171.99,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0070",
@@ -1487,9 +1888,12 @@
         "product_id": "Prod_V",
         "category": "books",
         "quantity": 6,
-        "unit_price": 9.0
+        "unit_price": 9.0,
+        "line_status": "active",
+        "discount": 5.4
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0071",
@@ -1500,21 +1904,28 @@
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 9,
-        "unit_price": 181.52
+        "unit_price": 181.52,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_D",
         "category": "Books",
         "quantity": 7,
-        "unit_price": 136.18
+        "unit_price": 136.18,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_T",
         "category": "Apparel",
         "quantity": 8,
-        "unit_price": 147.25
+        "unit_price": 147.25,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0072",
@@ -1525,9 +1936,12 @@
         "product_id": "prod_k",
         "category": null,
         "quantity": 1,
-        "unit_price": 20.61
+        "unit_price": 20.61,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0073",
@@ -1538,27 +1952,36 @@
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 6,
-        "unit_price": 237.86
+        "unit_price": 237.86,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 2,
-        "unit_price": 217.86
+        "unit_price": 217.86,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_N",
         "category": "Apparel",
         "quantity": 7,
-        "unit_price": 25.72
+        "unit_price": 25.72,
+        "line_status": "active",
+        "discount": 18.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 5,
-        "unit_price": 171.96
+        "unit_price": 171.96,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0074",
@@ -1569,27 +1992,36 @@
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 2,
-        "unit_price": 89.14
+        "unit_price": 89.14,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 3,
-        "unit_price": 169.41
+        "unit_price": 169.41,
+        "line_status": "active",
+        "discount": 50.82
       },
       {
         "product_id": "Prod_L",
         "category": "Beauty",
         "quantity": 7,
-        "unit_price": 28.78
+        "unit_price": 28.78,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 4,
-        "unit_price": 195.74
+        "unit_price": 195.74,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0075",
@@ -1600,9 +2032,12 @@
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 9,
-        "unit_price": 12.81
+        "unit_price": 12.81,
+        "line_status": "active",
+        "discount": 11.53
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0076",
@@ -1613,21 +2048,28 @@
         "product_id": "PROD_H",
         "category": "Apparel",
         "quantity": 8,
-        "unit_price": 23.75
+        "unit_price": 23.75,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 4,
-        "unit_price": 62.89
+        "unit_price": 62.89,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_N",
         "category": "Apparel",
         "quantity": 2,
-        "unit_price": 22.53
+        "unit_price": 22.53,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0077",
@@ -1638,21 +2080,28 @@
         "product_id": "PROD_D",
         "category": null,
         "quantity": 3,
-        "unit_price": 102.62
+        "unit_price": 102.62,
+        "line_status": "cancelled",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_X",
         "category": null,
         "quantity": 7,
-        "unit_price": 59.0
+        "unit_price": 59.0,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_M",
         "category": null,
         "quantity": 6,
-        "unit_price": 85.57
+        "unit_price": 85.57,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0078",
@@ -1663,15 +2112,20 @@
         "product_id": "PROD_I",
         "category": "",
         "quantity": 7,
-        "unit_price": 234.21
+        "unit_price": 234.21,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_N",
         "category": "",
         "quantity": 5,
-        "unit_price": 128.55
+        "unit_price": 128.55,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0079",
@@ -1682,9 +2136,12 @@
         "product_id": "prod_a",
         "category": "Electronics",
         "quantity": 9,
-        "unit_price": 191.35
+        "unit_price": 191.35,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0080",
@@ -1695,21 +2152,28 @@
         "product_id": "PROD_Y",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 15.24
+        "unit_price": 15.24,
+        "line_status": "active",
+        "discount": 1.52
       },
       {
         "product_id": "PROD_N",
         "category": "Apparel",
         "quantity": 1,
-        "unit_price": 44.88
+        "unit_price": 44.88,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 4,
-        "unit_price": 244.92
+        "unit_price": 244.92,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0081",
@@ -1720,21 +2184,28 @@
         "product_id": "PROD_X",
         "category": "",
         "quantity": 3,
-        "unit_price": 29.08
+        "unit_price": 29.08,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 5,
-        "unit_price": 189.12
+        "unit_price": 189.12,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_W",
         "category": "Sports",
         "quantity": 9,
-        "unit_price": 220.32
+        "unit_price": 220.32,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0082",
@@ -1745,21 +2216,28 @@
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 3,
-        "unit_price": 199.94
+        "unit_price": 199.94,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_f",
         "category": "Beauty",
         "quantity": 1,
-        "unit_price": 72.81
+        "unit_price": 72.81,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_H",
         "category": "Apparel",
         "quantity": 8,
-        "unit_price": 16.21
+        "unit_price": 16.21,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0083",
@@ -1770,9 +2248,12 @@
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 1,
-        "unit_price": 20.89
+        "unit_price": 20.89,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0084",
@@ -1783,15 +2264,20 @@
         "product_id": "PROD_T",
         "category": "apparel",
         "quantity": 3,
-        "unit_price": 101.09
+        "unit_price": 101.09,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_f",
         "category": "beauty",
         "quantity": 6,
-        "unit_price": 19.24
+        "unit_price": 19.24,
+        "line_status": "active",
+        "discount": 11.54
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0085",
@@ -1802,21 +2288,28 @@
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 3,
-        "unit_price": 113.1
+        "unit_price": 113.1,
+        "line_status": "active",
+        "discount": 33.93
       },
       {
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 9,
-        "unit_price": 25.1
+        "unit_price": 25.1,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_a",
         "category": "Electronics",
         "quantity": 7,
-        "unit_price": 199.42
+        "unit_price": 199.42,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0086",
@@ -1827,27 +2320,36 @@
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 2,
-        "unit_price": 6.25
+        "unit_price": 6.25,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_B",
         "category": "Apparel",
         "quantity": 9,
-        "unit_price": 16.98
+        "unit_price": 16.98,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_L",
         "category": "Beauty",
         "quantity": 1,
-        "unit_price": 257.09
+        "unit_price": 257.09,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_X",
         "category": "",
         "quantity": 2,
-        "unit_price": 166.91
+        "unit_price": 166.91,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0087",
@@ -1858,21 +2360,28 @@
         "product_id": "prod_a",
         "category": "Electronics",
         "quantity": 4,
-        "unit_price": 81.7
+        "unit_price": 81.7,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 7,
-        "unit_price": 148.87
+        "unit_price": 148.87,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_N",
         "category": "Apparel",
         "quantity": 5,
-        "unit_price": 188.9
+        "unit_price": 188.9,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0088",
@@ -1883,21 +2392,28 @@
         "product_id": "PROD_C",
         "category": null,
         "quantity": 2,
-        "unit_price": 54.67
+        "unit_price": 54.67,
+        "line_status": "cancelled",
+        "discount": 0.0
       },
       {
         "product_id": "prod_p",
         "category": null,
         "quantity": 7,
-        "unit_price": 115.16
+        "unit_price": 115.16,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_a",
         "category": null,
         "quantity": 3,
-        "unit_price": 26.95
+        "unit_price": 26.95,
+        "line_status": "active",
+        "discount": 8.08
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0089",
@@ -1908,15 +2424,20 @@
         "product_id": "prod_p",
         "category": "Books",
         "quantity": 1,
-        "unit_price": 55.81
+        "unit_price": 55.81,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_B",
         "category": "Apparel",
         "quantity": 4,
-        "unit_price": 8.53
+        "unit_price": 8.53,
+        "line_status": "active",
+        "discount": 3.41
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0090",
@@ -1927,15 +2448,20 @@
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 4,
-        "unit_price": 20.52
+        "unit_price": 20.52,
+        "line_status": "active",
+        "discount": 8.21
       },
       {
         "product_id": "Prod_L",
         "category": "Beauty",
         "quantity": 1,
-        "unit_price": 13.51
+        "unit_price": 13.51,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0091",
@@ -1946,27 +2472,36 @@
         "product_id": "PROD_E",
         "category": "",
         "quantity": 6,
-        "unit_price": 25.75
+        "unit_price": 25.75,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_T",
         "category": "",
         "quantity": 9,
-        "unit_price": 92.71
+        "unit_price": 92.71,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_O",
         "category": "",
         "quantity": 6,
-        "unit_price": 170.38
+        "unit_price": 170.38,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_S",
         "category": "",
         "quantity": 5,
-        "unit_price": 21.57
+        "unit_price": 21.57,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0092",
@@ -1977,9 +2512,12 @@
         "product_id": "PROD_Y",
         "category": "Electronics",
         "quantity": 6,
-        "unit_price": 104.63
+        "unit_price": 104.63,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0093",
@@ -1990,9 +2528,12 @@
         "product_id": "Prod_B",
         "category": "Apparel",
         "quantity": 3,
-        "unit_price": 20.51
+        "unit_price": 20.51,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0094",
@@ -2003,21 +2544,28 @@
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 4,
-        "unit_price": 148.25
+        "unit_price": 148.25,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 5,
-        "unit_price": 27.53
+        "unit_price": 27.53,
+        "line_status": "active",
+        "discount": 13.77
       },
       {
         "product_id": "PROD_X",
         "category": "",
         "quantity": 1,
-        "unit_price": 92.72
+        "unit_price": 92.72,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0095",
@@ -2028,21 +2576,28 @@
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 2,
-        "unit_price": 7.42
+        "unit_price": 7.42,
+        "line_status": "active",
+        "discount": 1.48
       },
       {
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 6,
-        "unit_price": 78.08
+        "unit_price": 78.08,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 8,
-        "unit_price": 11.49
+        "unit_price": 11.49,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0096",
@@ -2053,9 +2608,12 @@
         "product_id": "prod_a",
         "category": "Electronics",
         "quantity": 6,
-        "unit_price": 14.97
+        "unit_price": 14.97,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0097",
@@ -2066,9 +2624,12 @@
         "product_id": "PROD_X",
         "category": "",
         "quantity": 4,
-        "unit_price": 28.99
+        "unit_price": 28.99,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0098",
@@ -2079,15 +2640,20 @@
         "product_id": "PROD_X",
         "category": "",
         "quantity": 2,
-        "unit_price": 32.88
+        "unit_price": 32.88,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_Q",
         "category": null,
         "quantity": 8,
-        "unit_price": 15.46
+        "unit_price": 15.46,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0099",
@@ -2098,21 +2664,28 @@
         "product_id": "Prod_B",
         "category": null,
         "quantity": 5,
-        "unit_price": 228.97
+        "unit_price": 228.97,
+        "line_status": "cancelled",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_W",
         "category": null,
         "quantity": 9,
-        "unit_price": 112.81
+        "unit_price": 112.81,
+        "line_status": "active",
+        "discount": 101.53
       },
       {
         "product_id": "Prod_V",
         "category": null,
         "quantity": 5,
-        "unit_price": 59.9
+        "unit_price": 59.9,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0100",
@@ -2123,21 +2696,28 @@
         "product_id": "PROD_R",
         "category": "",
         "quantity": 2,
-        "unit_price": 47.93
+        "unit_price": 47.93,
+        "line_status": "active",
+        "discount": 9.59
       },
       {
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 1,
-        "unit_price": 58.93
+        "unit_price": 58.93,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 30.21
+        "unit_price": 30.21,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0101",
@@ -2148,27 +2728,36 @@
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 5,
-        "unit_price": 31.95
+        "unit_price": 31.95,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_k",
         "category": null,
         "quantity": 8,
-        "unit_price": 16.5
+        "unit_price": 16.5,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 2,
-        "unit_price": 24.07
+        "unit_price": 24.07,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 5,
-        "unit_price": 26.71
+        "unit_price": 26.71,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0102",
@@ -2179,15 +2768,20 @@
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 2,
-        "unit_price": 9.8
+        "unit_price": 9.8,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_k",
         "category": null,
         "quantity": 1,
-        "unit_price": 89.36
+        "unit_price": 89.36,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0103",
@@ -2198,9 +2792,12 @@
         "product_id": "PROD_C",
         "category": "Home",
         "quantity": 4,
-        "unit_price": 56.41
+        "unit_price": 56.41,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0104",
@@ -2211,9 +2808,12 @@
         "product_id": "PROD_N",
         "category": "",
         "quantity": 2,
-        "unit_price": 77.96
+        "unit_price": 77.96,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0105",
@@ -2224,15 +2824,20 @@
         "product_id": "PROD_C",
         "category": "home",
         "quantity": 2,
-        "unit_price": 98.81
+        "unit_price": 98.81,
+        "line_status": "active",
+        "discount": 19.76
       },
       {
         "product_id": "Prod_L",
         "category": "beauty",
         "quantity": 6,
-        "unit_price": 34.3
+        "unit_price": 34.3,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0106",
@@ -2243,9 +2848,12 @@
         "product_id": "PROD_X",
         "category": "",
         "quantity": 6,
-        "unit_price": 32.91
+        "unit_price": 32.91,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0107",
@@ -2256,15 +2864,20 @@
         "product_id": "Prod_G",
         "category": "Electronics",
         "quantity": 9,
-        "unit_price": 171.08
+        "unit_price": 171.08,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 3,
-        "unit_price": 232.63
+        "unit_price": 232.63,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0108",
@@ -2275,9 +2888,12 @@
         "product_id": "PROD_I",
         "category": "Home",
         "quantity": 6,
-        "unit_price": 258.68
+        "unit_price": 258.68,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0109",
@@ -2288,21 +2904,28 @@
         "product_id": "PROD_R",
         "category": "",
         "quantity": 2,
-        "unit_price": 23.77
+        "unit_price": 23.77,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 8,
-        "unit_price": 144.0
+        "unit_price": 144.0,
+        "line_status": "active",
+        "discount": 115.2
       },
       {
         "product_id": "prod_p",
         "category": "Books",
         "quantity": 3,
-        "unit_price": 254.64
+        "unit_price": 254.64,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0110",
@@ -2313,15 +2936,20 @@
         "product_id": "PROD_M",
         "category": null,
         "quantity": 5,
-        "unit_price": 19.21
+        "unit_price": 19.21,
+        "line_status": "cancelled",
+        "discount": 9.61
       },
       {
         "product_id": "PROD_S",
         "category": null,
         "quantity": 4,
-        "unit_price": 44.61
+        "unit_price": 44.61,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0111",
@@ -2332,9 +2960,12 @@
         "product_id": "PROD_J",
         "category": "Books",
         "quantity": 1,
-        "unit_price": 215.2
+        "unit_price": 215.2,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0112",
@@ -2345,15 +2976,20 @@
         "product_id": "prod_p",
         "category": "books",
         "quantity": 2,
-        "unit_price": 219.38
+        "unit_price": 219.38,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "prod_a",
         "category": "electronics",
         "quantity": 2,
-        "unit_price": 7.17
+        "unit_price": 7.17,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0113",
@@ -2364,9 +3000,12 @@
         "product_id": "PROD_S",
         "category": "Electronics",
         "quantity": 1,
-        "unit_price": 219.95
+        "unit_price": 219.95,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0114",
@@ -2377,9 +3016,12 @@
         "product_id": "prod_p",
         "category": "Books",
         "quantity": 4,
-        "unit_price": 166.34
+        "unit_price": 166.34,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0115",
@@ -2390,9 +3032,12 @@
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 7,
-        "unit_price": 219.53
+        "unit_price": 219.53,
+        "line_status": "active",
+        "discount": 153.67
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0116",
@@ -2403,9 +3048,12 @@
         "product_id": "PROD_E",
         "category": "Sports",
         "quantity": 7,
-        "unit_price": 254.09
+        "unit_price": 254.09,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0117",
@@ -2416,9 +3064,12 @@
         "product_id": "prod_k",
         "category": "",
         "quantity": 4,
-        "unit_price": 170.1
+        "unit_price": 170.1,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0118",
@@ -2429,15 +3080,20 @@
         "product_id": "prod_f",
         "category": "Beauty",
         "quantity": 1,
-        "unit_price": 76.2
+        "unit_price": 76.2,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "Prod_V",
         "category": "Books",
         "quantity": 9,
-        "unit_price": 16.68
+        "unit_price": 16.68,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0119",
@@ -2448,9 +3104,12 @@
         "product_id": "prod_p",
         "category": "books",
         "quantity": 9,
-        "unit_price": 33.62
+        "unit_price": 33.62,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
   },
   {
     "order_id": "ORD-0120",
@@ -2461,20 +3120,547 @@
         "product_id": "PROD_M",
         "category": "Electronics",
         "quantity": 8,
-        "unit_price": 32.02
+        "unit_price": 32.02,
+        "line_status": "active",
+        "discount": 25.62
       },
       {
         "product_id": "prod_u",
         "category": "Home",
         "quantity": 4,
-        "unit_price": 160.97
+        "unit_price": 160.97,
+        "line_status": "active",
+        "discount": 0.0
       },
       {
         "product_id": "PROD_O",
         "category": "Home",
         "quantity": 5,
-        "unit_price": 246.72
+        "unit_price": 246.72,
+        "line_status": "active",
+        "discount": 0.0
       }
-    ]
+    ],
+    "schema_version": 1
+  },
+  {
+    "order_id": "ORD-0001",
+    "customer_id": "CUST_132",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_S",
+        "category": "Electronics",
+        "quantity": 5,
+        "unit_price": 151.94,
+        "line_status": "cancelled",
+        "discount": 113.95
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 4,
+        "unit_price": 26.46,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "PROD_D",
+        "category": "Books",
+        "quantity": 7,
+        "unit_price": 72.6,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0002",
+    "customer_id": "cust_129",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 9,
+        "unit_price": 26.49,
+        "line_status": "active",
+        "discount": 35.76
+      },
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 6,
+        "unit_price": 107.31,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 9,
+        "unit_price": 66.14,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0003",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_L",
+        "category": "Beauty",
+        "quantity": 6,
+        "unit_price": 119.23,
+        "line_status": "active",
+        "discount": 107.31
+      },
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 8,
+        "unit_price": 24.76,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 186.31,
+        "line_status": "active",
+        "discount": 93.16
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0004",
+    "customer_id": "CUST_116",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 157.13,
+        "line_status": "active",
+        "discount": 164.99
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0005",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 8,
+        "unit_price": 131.24,
+        "line_status": "cancelled",
+        "discount": 157.49
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 8,
+        "unit_price": 220.73,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0006",
+    "customer_id": "CUST_132",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 2,
+        "unit_price": 26.29,
+        "line_status": "active",
+        "discount": 7.89
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0007",
+    "customer_id": "Cust_119",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_G",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 13.39,
+        "line_status": "active",
+        "discount": 2.01
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0008",
+    "customer_id": "CUST_112",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 8,
+        "unit_price": 209.26,
+        "line_status": "active",
+        "discount": 251.11
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 9,
+        "unit_price": 34.07,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0009",
+    "customer_id": "CUST_136",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 2,
+        "unit_price": 23.63,
+        "line_status": "cancelled",
+        "discount": 7.09
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 7,
+        "unit_price": 135.24,
+        "line_status": "active",
+        "discount": 94.67
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0010",
+    "customer_id": "CUST_138",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 8,
+        "unit_price": 180.59,
+        "line_status": "active",
+        "discount": 216.71
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0011",
+    "customer_id": "cust_117",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_R",
+        "category": null,
+        "quantity": 2,
+        "unit_price": 251.82,
+        "line_status": "cancelled",
+        "discount": 75.55
+      },
+      {
+        "product_id": "PROD_M",
+        "category": null,
+        "quantity": 4,
+        "unit_price": 66.16,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "prod_f",
+        "category": null,
+        "quantity": 1,
+        "unit_price": 168.89,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 8,
+        "unit_price": 58.22,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0012",
+    "customer_id": "cust_113",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_S",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 140.24,
+        "line_status": "active",
+        "discount": 21.04
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0013",
+    "customer_id": "cust_121",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_H",
+        "category": "",
+        "quantity": 8,
+        "unit_price": 61.15,
+        "line_status": "cancelled",
+        "discount": 73.38
+      },
+      {
+        "product_id": "PROD_T",
+        "category": "",
+        "quantity": 1,
+        "unit_price": 238.96,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": "",
+        "quantity": 1,
+        "unit_price": 15.4,
+        "line_status": "active",
+        "discount": 1.54
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0014",
+    "customer_id": "cust_101",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 165.64,
+        "line_status": "active",
+        "discount": 49.69
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0015",
+    "customer_id": "Cust_139",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 9,
+        "unit_price": 22.11,
+        "line_status": "active",
+        "discount": 29.85
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0016",
+    "customer_id": "CUST_112",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 5,
+        "unit_price": 46.23,
+        "line_status": "active",
+        "discount": 34.67
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 9,
+        "unit_price": 32.99,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "PROD_S",
+        "category": "Electronics",
+        "quantity": 4,
+        "unit_price": 34.18,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0017",
+    "customer_id": "CUST_110",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 19.42,
+        "line_status": "cancelled",
+        "discount": 14.57
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 240.8,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0018",
+    "customer_id": "cust_125",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_D",
+        "category": "Books",
+        "quantity": 6,
+        "unit_price": 6.31,
+        "line_status": "active",
+        "discount": 5.68
+      },
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 4,
+        "unit_price": 9.81,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 7,
+        "unit_price": 25.6,
+        "line_status": "active",
+        "discount": 17.92
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 5,
+        "unit_price": 205.22,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0019",
+    "customer_id": "Cust_103",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 9,
+        "unit_price": 17.18,
+        "line_status": "active",
+        "discount": 23.19
+      },
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 180.45,
+        "line_status": "active",
+        "discount": 36.09
+      },
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 1,
+        "unit_price": 215.26,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
+  },
+  {
+    "order_id": "ORD-0020",
+    "customer_id": "cust_133",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 2,
+        "unit_price": 19.74,
+        "line_status": "active",
+        "discount": 5.92
+      },
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 238.65,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 3,
+        "unit_price": 116.78,
+        "line_status": "active",
+        "discount": 0.0
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 170.25,
+        "line_status": "active",
+        "discount": 0.0
+      }
+    ],
+    "schema_version": 2
   }
 ]

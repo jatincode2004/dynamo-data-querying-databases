@@ -2,227 +2,333 @@
   {
     "customer_id": "cust_101",
     "name": "Aarav Sharma",
-    "email": "customer1@example.com"
+    "email": "customer1@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_102",
     "name": "Aditi Patel",
-    "email": "customer2@example.com"
+    "email": "customer2@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "Cust_103",
     "name": "Arjun Kumar",
     "contact": {
       "email_address": "customer3@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_104",
     "name": "Ananya Singh",
-    "email": "customer4@example.com"
+    "email": "customer4@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "cust_105",
     "name": "Vihaan Gupta",
-    "email": "customer5@example.com"
+    "email": "customer5@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_106",
     "name": "Ishita Mehta",
     "contact": {
       "email_address": "customer6@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "id": "Cust_107",
     "name": "Kabir Verma",
-    "email": "customer7@example.com"
+    "email": "customer7@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_108",
     "name": "Meera Rao",
-    "email": "customer8@example.com"
+    "email": "customer8@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "cust_109",
     "name": "Rohan Kapoor",
     "contact": {
       "email_address": "customer9@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_110",
     "name": "Nisha Joshi",
-    "email": "customer10@example.com"
+    "email": "customer10@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "Cust_111",
     "name": "Karan Sharma",
-    "email": "customer11@example.com"
+    "email": "customer11@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_112",
     "name": "Pooja Patel",
     "contact": {
       "email_address": "customer12@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "cust_113",
     "name": "Rahul Kumar",
-    "email": "customer13@example.com"
+    "email": "customer13@example.com",
+    "schema_version": 1
   },
   {
     "id": "CUST_114",
     "name": "Sneha Singh",
-    "email": "customer14@example.com"
+    "email": "customer14@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "Cust_115",
     "name": "Aditya Gupta",
     "contact": {
       "email_address": "customer15@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_116",
     "name": "Neha Mehta",
-    "email": "customer16@example.com"
+    "email": "customer16@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "cust_117",
     "name": "Vikram Verma",
-    "email": "customer17@example.com"
+    "email": "customer17@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_118",
     "name": "Riya Rao",
     "contact": {
       "email_address": "customer18@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "Cust_119",
     "name": "Dev Kapoor",
-    "email": "customer19@example.com"
+    "email": "customer19@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_120",
     "name": "Tanya Joshi",
-    "email": "customer20@example.com"
+    "email": "customer20@example.com",
+    "schema_version": 1
   },
   {
     "id": "cust_121",
     "name": "Aman Sharma",
     "contact": {
       "email_address": "customer21@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_122",
     "name": "Kavya Patel",
-    "email": "customer22@example.com"
+    "email": "customer22@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "Cust_123",
     "name": "Yash Kumar",
-    "email": "customer23@example.com"
+    "email": "customer23@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_124",
     "name": "Simran Singh",
     "contact": {
       "email_address": "customer24@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "cust_125",
     "name": "Varun Gupta",
-    "email": "customer25@example.com"
+    "email": "customer25@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_126",
     "name": "Diya Mehta",
-    "email": "customer26@example.com"
+    "email": "customer26@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "Cust_127",
     "name": "Manav Verma",
     "contact": {
       "email_address": "customer27@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "id": "CUST_128",
     "name": "Priya Rao",
-    "email": "customer28@example.com"
+    "email": "customer28@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "cust_129",
     "name": "Sahil Kapoor",
-    "email": "customer29@example.com"
+    "email": "customer29@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_130",
     "name": "Anika Joshi",
     "contact": {
       "email_address": "customer30@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "Cust_131",
     "name": "Nikhil Sharma",
-    "email": "customer31@example.com"
+    "email": "customer31@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_132",
     "name": "Maya Patel",
-    "email": "customer32@example.com"
+    "email": "customer32@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "cust_133",
     "name": "Arnav Kumar",
     "contact": {
       "email_address": "customer33@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_134",
     "name": "Ira Singh",
-    "email": "customer34@example.com"
+    "email": "customer34@example.com",
+    "schema_version": 1
   },
   {
     "id": "Cust_135",
     "name": "Dhruv Gupta",
-    "email": "customer35@example.com"
+    "email": "customer35@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_136",
     "name": "Sara Mehta",
     "contact": {
       "email_address": "customer36@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "cust_137",
     "name": "Ritvik Verma",
-    "email": "customer37@example.com"
+    "email": "customer37@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_138",
     "name": "Avni Rao",
-    "email": "customer38@example.com"
+    "email": "customer38@example.com",
+    "schema_version": 1
   },
   {
     "customer_id": "Cust_139",
     "name": "Kunal Kapoor",
     "contact": {
       "email_address": "customer39@example.com"
-    }
+    },
+    "schema_version": 1
   },
   {
     "customer_id": "CUST_140",
     "name": "Myra Joshi",
-    "email": "customer40@example.com"
+    "email": "customer40@example.com",
+    "schema_version": 1
+  },
+  {
+    "customer_id": "cust_101",
+    "name": "Aarav Sharma Updated",
+    "email": "customer1@example.com",
+    "schema_version": 2
+  },
+  {
+    "customer_id": "CUST_102",
+    "name": "Aditi Patel Updated",
+    "email": "customer2@example.com",
+    "schema_version": 2
+  },
+  {
+    "customer_id": "Cust_103",
+    "name": "Arjun Kumar Updated",
+    "contact": {
+      "email_address": "customer3@example.com"
+    },
+    "schema_version": 2
+  },
+  {
+    "customer_id": "CUST_104",
+    "name": "Ananya Singh Updated",
+    "email": "customer4@example.com",
+    "schema_version": 2
+  },
+  {
+    "customer_id": "cust_105",
+    "name": "Vihaan Gupta Updated",
+    "email": "customer5@example.com",
+    "schema_version": 2
+  },
+  {
+    "customer_id": "CUST_106",
+    "name": "Ishita Mehta Updated",
+    "contact": {
+      "email_address": "customer6@example.com"
+    },
+    "schema_version": 2
+  },
+  {
+    "id": "Cust_107",
+    "name": "Kabir Verma Updated",
+    "email": "customer7@example.com",
+    "schema_version": 2
+  },
+  {
+    "customer_id": "CUST_108",
+    "name": "Meera Rao Updated",
+    "email": "customer8@example.com",
+    "schema_version": 2
+  },
+  {
+    "customer_id": "cust_109",
+    "name": "Rohan Kapoor Updated",
+    "contact": {
+      "email_address": "customer9@example.com"
+    },
+    "schema_version": 2
+  },
+  {
+    "customer_id": "CUST_110",
+    "name": "Nisha Joshi Updated",
+    "email": "customer10@example.com",
+    "schema_version": 2
   }
 ]

@@ -18,13 +18,13 @@ artifact_type = [
     "single_script_or_program"
 ]
 
-expert_time_estimate_hours = 8.0
+expert_time_estimate_hours = 4.0
 
-difficulty_explanation = "The task requires inspecting multiple document collections, reconciling inconsistent identifiers and category fields, filtering order states correctly, aggregating revenue and quantities, and applying deterministic tie-breaking rules."
+difficulty_explanation = "This synthetic commerce dataset models schema evolution and operational data inconsistencies: multiple versions of logical customers, products, and orders must be reconciled before aggregation; identifiers use inconsistent casing and field names; product categories may be missing; and order lines contain discounts and independent cancellation states. These details make naive aggregation produce incorrect business reporting."
 
-solution_explanation = "Inspect the customer, product, and order collections, normalize identifiers, process non-cancelled orders, aggregate customer spending, product quantities, and category revenue, then generate the required JSON report."
+solution_explanation = "Load all three collections, normalize logical identifiers, retain the highest schema_version for each logical entity, derive categories from the retained product catalog, then process only active order lines. Subtract each line discount from quantity times unit price, count orders containing cancelled lines, aggregate customer spend, product quantities, and category revenue, apply the specified lexical tie-breakers, and serialize the six required metrics."
 
-verification_explanation = "The verifier checks that exactly one report file exists, validates its schema and data types, and compares all required metrics against the expected values."
+verification_explanation = "Tests independently reconcile every collection by logical identifier and highest schema_version, then recompute revenue, active customers, cancelled-order counts, top customer, top product, and category revenue from the retained records. Numeric revenue comparisons use a 1e-6 absolute tolerance because the report is rounded to two decimal places while intermediate calculations use binary floating-point arithmetic."
 
 [verifier]
 timeout_sec = 120.0
