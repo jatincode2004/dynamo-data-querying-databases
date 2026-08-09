@@ -23,7 +23,7 @@ Produce a business report from the order history. The report should reflect the 
 
 Identifiers may use different casing and may appear under either an `*_id` field or a generic `id` field. Treat logically identical identifiers consistently.
 
-For each order, use its order date when determining which historical customer or product information applies to that transaction. A historical document is applicable to a transaction when its effective period covers the transaction date. If several records for the same logical entity could apply, use the most recent applicable version.
+For each logical entity, use the most recent applicable record, meaning the record with the latest effective_from date that is not after the relevant order date. When multiple applicable records have the same effective_from date, select the record with the highest schema_version.
 
 Order line items contain quantity and unit price information. Some lines can contain discounts and line-level cancellation information. Cancelled lines must not contribute to sales or quantities. An order containing cancelled lines is counted as a cancelled order even when it also contains active lines.
 
