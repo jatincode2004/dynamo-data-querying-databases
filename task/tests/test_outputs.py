@@ -4,7 +4,6 @@ from datetime import datetime
 
 import pytest
 
-
 REPORT_PATH = "/app/report.json"
 DATA_DIR = "/app/data"
 
@@ -93,91 +92,9 @@ def discount_value(item):
     return 0.0
 
 
-def test_report_file_exists():
-    assert os.path.exists(REPORT_PATH)
+def compute_expected_metrics():
+    """Recompute all six requested report metrics from the source collections."""
 
-
-def test_no_extra_json_files():
-    for item in os.listdir("/app"):
-        if item.endswith(".json") and item != "report.json":
-            pytest.fail(
-                f"Unauthorized extra JSON file found in /app: {item}"
-            )
-
-
-def test_report_schema_and_types():
-    with open(
-        REPORT_PATH,
-        "r",
-        encoding="utf-8",
-    ) as f:
-        report = json.load(f)
-
-    expected_keys = {
-        "total_revenue",
-        "active_customers",
-        "cancelled_orders",
-        "top_customer",
-        "top_product",
-        "category_revenue",
-    }
-
-    assert set(report.keys()) == expected_keys
-
-    assert isinstance(
-        report["total_revenue"],
-        (int, float),
-    )
-    assert isinstance(
-        report["active_customers"],
-        int,
-    )
-    assert isinstance(
-        report["cancelled_orders"],
-        int,
-    )
-    assert isinstance(
-        report["top_customer"],
-        dict,
-    )
-    assert isinstance(
-        report["top_product"],
-        dict,
-    )
-    assert isinstance(
-        report["category_revenue"],
-        dict,
-    )
-
-    assert set(report["top_customer"].keys()) == {
-        "customer_id",
-        "total_spend",
-    }
-
-    assert set(report["top_product"].keys()) == {
-        "product_id",
-        "quantity_sold",
-    }
-
-    assert isinstance(
-        report["top_customer"]["customer_id"],
-        str,
-    )
-    assert isinstance(
-        report["top_customer"]["total_spend"],
-        (int, float),
-    )
-    assert isinstance(
-        report["top_product"]["product_id"],
-        str,
-    )
-    assert isinstance(
-        report["top_product"]["quantity_sold"],
-        int,
-    )
-
-
-def test_report_matches_temporal_reconciliation():
     with open(
         os.path.join(DATA_DIR, "customers.json"),
         "r",
@@ -231,8 +148,7 @@ def test_report_matches_temporal_reconciliation():
         customer_records = [
             customer
             for customer in customers
-            if entity_id(customer)
-            == order_customer_id
+            if entity_id(customer) == order_customer_id
         ]
 
         customer = applicable_record(
@@ -285,8 +201,7 @@ def test_report_matches_temporal_reconciliation():
             product_records = [
                 product
                 for product in products
-                if entity_id(product)
-                == product_id
+                if entity_id(product) == product_id
             ]
 
             product = applicable_record(
@@ -340,51 +255,205 @@ def test_report_matches_temporal_reconciliation():
         ),
     )[0]
 
-    with open(
-        REPORT_PATH,
-        "r",
-        encoding="utf-8",
-    ) as f:
-        report = json.load(f)
-
-    assert report["total_revenue"] == pytest.approx(
-        round(total_revenue, 2),
-        abs=1e-2,
-    )
-
-    assert report["active_customers"] == len(
-        active_customers
-    )
-
-    assert report["cancelled_orders"] == (
-        cancelled_orders
-    )
-
-    assert report["top_customer"]["customer_id"] == (
-        best_customer[0]
-    )
-
-    assert report["top_customer"]["total_spend"] == (
-        pytest.approx(
-            round(best_customer[1], 2),
-            abs=1e-2,
-        )
-    )
-
-    assert report["top_product"]["product_id"] == (
-        best_product[0]
-    )
-
-    assert report["top_product"]["quantity_sold"] == (
-        best_product[1]
-    )
-
     expected_categories = {
         category: round(revenue, 2)
         for category, revenue in category_revenue.items()
         if round(revenue, 2) > 0
     }
 
+    return {
+        "total_revenue": round(total_revenue, 2),
+        "active_customers": len(active_customers),
+        "cancelled_orders": cancelled_orders,
+        "top_customer": {
+            "customer_id": best_customer[0],
+            "total_spend": round(best_customer[1], 2),
+        },
+        "top_product": {
+            "product_id": best_product[0],
+            "quantity_sold": best_product[1],
+        },
+        "category_revenue": expected_categories,
+    }
+
+
+def load_report():
+    """Load the generated report for the individual metric tests."""
+
+    with open(
+        REPORT_PATH,
+        "r",
+        encoding="utf-8",
+    ) as f:
+        return json.load(f)
+
+
+def test_report_file_exists():
+    """Verify that the required report.json artifact is produced."""
+
+    assert os.path.exists(REPORT_PATH)
+
+
+def test_no_extra_json_files():
+    """Verify that no unauthorized JSON artifacts are created in /app."""
+
+    for item in os.listdir("/app"):
+        if item.endswith(".json") and item != "report.json":
+            pytest.fail(
+                f"Unauthorized extra JSON file found in /app: {item}"
+            )
+
+
+def test_report_schema_and_types():
+    """Verify the required report fields, nested fields, and value types."""
+
+    report = load_report()
+
+    expected_keys = {
+        "total_revenue",
+        "active_customers",
+        "cancelled_orders",
+        "top_customer",
+        "top_product",
+        "category_revenue",
+    }
+
+    assert set(report.keys()) == expected_keys
+
+    assert isinstance(
+        report["total_revenue"],
+        (int, float),
+    )
+
+    assert isinstance(
+        report["active_customers"],
+        int,
+    )
+
+    assert isinstance(
+        report["cancelled_orders"],
+        int,
+    )
+
+    assert isinstance(
+        report["top_customer"],
+        dict,
+    )
+
+    assert isinstance(
+        report["top_product"],
+        dict,
+    )
+
+    assert isinstance(
+        report["category_revenue"],
+        dict,
+    )
+
+    assert set(report["top_customer"].keys()) == {
+        "customer_id",
+        "total_spend",
+    }
+
+    assert set(report["top_product"].keys()) == {
+        "product_id",
+        "quantity_sold",
+    }
+
+    assert isinstance(
+        report["top_customer"]["customer_id"],
+        str,
+    )
+
+    assert isinstance(
+        report["top_customer"]["total_spend"],
+        (int, float),
+    )
+
+    assert isinstance(
+        report["top_product"]["product_id"],
+        str,
+    )
+
+    assert isinstance(
+        report["top_product"]["quantity_sold"],
+        int,
+    )
+
+
+def test_total_revenue():
+    """Verify total_revenue matches the independently reconciled active-line revenue."""
+
+    report = load_report()
+    expected = compute_expected_metrics()
+
+    assert report["total_revenue"] == pytest.approx(
+        expected["total_revenue"],
+        abs=1e-2,
+    )
+
+
+def test_active_customers():
+    """Verify active_customers counts customers with at least one active order line."""
+
+    report = load_report()
+    expected = compute_expected_metrics()
+
+    assert report["active_customers"] == (
+        expected["active_customers"]
+    )
+
+
+def test_cancelled_orders():
+    """Verify cancelled_orders counts orders containing at least one cancelled line."""
+
+    report = load_report()
+    expected = compute_expected_metrics()
+
+    assert report["cancelled_orders"] == (
+        expected["cancelled_orders"]
+    )
+
+
+def test_top_customer():
+    """Verify top_customer ID and spend using reconciled customer totals and tie-breaking."""
+
+    report = load_report()
+    expected = compute_expected_metrics()
+
+    assert report["top_customer"]["customer_id"] == (
+        expected["top_customer"]["customer_id"]
+    )
+
+    assert report["top_customer"]["total_spend"] == (
+        pytest.approx(
+            expected["top_customer"]["total_spend"],
+            abs=1e-2,
+        )
+    )
+
+
+def test_top_product():
+    """Verify top_product ID and quantity using active product quantities and tie-breaking."""
+
+    report = load_report()
+    expected = compute_expected_metrics()
+
+    assert report["top_product"]["product_id"] == (
+        expected["top_product"]["product_id"]
+    )
+
+    assert report["top_product"]["quantity_sold"] == (
+        expected["top_product"]["quantity_sold"]
+    )
+
+
+def test_category_revenue():
+    """Verify category_revenue matches independently reconciled active-line category totals."""
+
+    report = load_report()
+    expected = compute_expected_metrics()
+
     assert report["category_revenue"] == (
-        expected_categories
+        expected["category_revenue"]
     )
