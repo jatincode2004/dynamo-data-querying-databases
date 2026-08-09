@@ -5,23 +5,123 @@
     "category": "Electronics"
   },
   {
-    "product_id": "PROD_B",
+    "product_id": "Prod_B",
     "product_name": "Mechanical Keyboard",
-    "category": "Electronics"
-  },
-  {
-    "product_id": "Prod_C",
-    "product_name": "Cotton T-Shirt",
     "category": "Apparel"
   },
   {
+    "product_id": "prod_c",
+    "product_name": "USB-C Hub",
+    "category": "Home"
+  },
+  {
     "product_id": "PROD_D",
-    "product_name": "Generic Desk Organizer",
+    "product_name": "Laptop Stand",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD_E",
+    "product_name": "Webcam",
+    "category": "Sports"
+  },
+  {
+    "product_id": "prod_f",
+    "product_name": "Cotton T-Shirt",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "Prod_G",
+    "product_name": "Denim Jacket",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod_h",
+    "product_name": "Running Shoes",
+    "category": "Apparel"
+  },
+  {
+    "product_id": "PROD_I",
+    "product_name": "Hoodie",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD_J",
+    "product_name": "Travel Backpack",
+    "category": "Books"
+  },
+  {
+    "product_id": "prod_k",
+    "product_name": "Desk Organizer",
     "category": null
   },
   {
-    "product_id": "prod_e",
-    "product_name": "Cable Sleeves",
+    "product_id": "Prod_L",
+    "product_name": "LED Desk Lamp",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "prod_m",
+    "product_name": "Water Bottle",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD_N",
+    "product_name": "Notebook Set",
+    "category": "Apparel"
+  },
+  {
+    "product_id": "PROD_O",
+    "product_name": "Office Chair",
+    "category": "Home"
+  },
+  {
+    "id": "prod_p",
+    "product_name": "Python Handbook",
+    "category": "Books"
+  },
+  {
+    "product_id": "Prod_Q",
+    "product_name": "Data Structures Guide",
+    "category": null
+  },
+  {
+    "product_id": "prod_r",
+    "product_name": "Business Analytics Book",
     "category": ""
+  },
+  {
+    "product_id": "PROD_S",
+    "product_name": "Yoga Mat",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD_T",
+    "product_name": "Resistance Bands",
+    "category": "Apparel"
+  },
+  {
+    "product_id": "prod_u",
+    "product_name": "Face Wash",
+    "category": "Home"
+  },
+  {
+    "product_id": "Prod_V",
+    "product_name": "Hair Dryer",
+    "category": "Books"
+  },
+  {
+    "product_id": "prod_w",
+    "product_name": "Sunscreen",
+    "category": "Sports"
+  },
+  {
+    "id": "PROD_X",
+    "product_name": "Bluetooth Speaker",
+    "category": ""
+  },
+  {
+    "product_id": "PROD_Y",
+    "product_name": "Power Bank",
+    "category": "Electronics"
   }
 ]

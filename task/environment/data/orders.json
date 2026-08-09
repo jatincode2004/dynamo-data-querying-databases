@@ -1,65 +1,2479 @@
 [
   {
-    "order_id": "ORD-001",
+    "order_id": "ORD-0001",
+    "customer_id": "CUST_132",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_S",
+        "category": "Electronics",
+        "quantity": 5,
+        "unit_price": 151.94
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 4,
+        "unit_price": 26.46
+      },
+      {
+        "product_id": "PROD_D",
+        "category": "Books",
+        "quantity": 7,
+        "unit_price": 72.6
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0002",
+    "customer_id": "cust_129",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 9,
+        "unit_price": 26.49
+      },
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 6,
+        "unit_price": 107.31
+      },
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 9,
+        "unit_price": 66.14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0003",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_L",
+        "category": "Beauty",
+        "quantity": 6,
+        "unit_price": 119.23
+      },
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 8,
+        "unit_price": 24.76
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 186.31
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0004",
+    "customer_id": "CUST_116",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 157.13
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0005",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 8,
+        "unit_price": 131.24
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 8,
+        "unit_price": 220.73
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0006",
+    "customer_id": "CUST_132",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 2,
+        "unit_price": 26.29
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0007",
+    "customer_id": "Cust_119",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_G",
+        "category": "electronics",
+        "quantity": 1,
+        "unit_price": 13.39
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0008",
+    "customer_id": "CUST_112",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 8,
+        "unit_price": 209.26
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 9,
+        "unit_price": 34.07
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0009",
+    "customer_id": "CUST_136",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 2,
+        "unit_price": 23.63
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 7,
+        "unit_price": 135.24
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0010",
+    "customer_id": "CUST_138",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 8,
+        "unit_price": 180.59
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0011",
+    "customer_id": "cust_117",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_R",
+        "category": null,
+        "quantity": 2,
+        "unit_price": 251.82
+      },
+      {
+        "product_id": "PROD_M",
+        "category": null,
+        "quantity": 4,
+        "unit_price": 66.16
+      },
+      {
+        "product_id": "prod_f",
+        "category": null,
+        "quantity": 1,
+        "unit_price": 168.89
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 8,
+        "unit_price": 58.22
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0012",
+    "customer_id": "cust_113",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_S",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 140.24
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0013",
+    "customer_id": "cust_121",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_H",
+        "category": "",
+        "quantity": 8,
+        "unit_price": 61.15
+      },
+      {
+        "product_id": "PROD_T",
+        "category": "",
+        "quantity": 1,
+        "unit_price": 238.96
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": "",
+        "quantity": 1,
+        "unit_price": 15.4
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0014",
     "customer_id": "cust_101",
     "status": "completed",
     "items": [
       {
-        "product_id": "prod_a",
-        "category": "Electronics",
+        "product_id": "PROD_C",
+        "category": "home",
         "quantity": 2,
-        "unit_price": 25.50
-      },
-      {
-        "product_id": "PROD_B",
-        "category": "Electronics",
-        "quantity": 1,
-        "unit_price": 49.50
+        "unit_price": 165.64
       }
     ]
   },
   {
-    "order_id": "ORD-002",
-    "customer_id": "CUST_102",
+    "order_id": "ORD-0015",
+    "customer_id": "Cust_139",
     "status": "completed",
     "items": [
       {
-        "product_id": "Prod_C",
-        "category": "Apparel",
-        "quantity": 5,
-        "unit_price": 15.00
-      },
-      {
-        "product_id": "prod_a",
-        "category": "Electronics",
-        "quantity": 8,
-        "unit_price": 3.1875
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 9,
+        "unit_price": 22.11
       }
     ]
   },
   {
-    "order_id": "ORD-003",
-    "customer_id": "Cust_103",
+    "order_id": "ORD-0016",
+    "customer_id": "CUST_112",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 5,
+        "unit_price": 46.23
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 9,
+        "unit_price": 32.99
+      },
+      {
+        "product_id": "PROD_S",
+        "category": "Electronics",
+        "quantity": 4,
+        "unit_price": 34.18
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0017",
+    "customer_id": "CUST_110",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 19.42
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 240.8
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0018",
+    "customer_id": "cust_125",
     "status": "cancelled",
     "items": [
       {
         "product_id": "PROD_D",
+        "category": "Books",
+        "quantity": 6,
+        "unit_price": 6.31
+      },
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 4,
+        "unit_price": 9.81
+      },
+      {
+        "product_id": "PROD_X",
         "category": "",
-        "quantity": 10,
-        "unit_price": 10.00
+        "quantity": 7,
+        "unit_price": 25.6
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 5,
+        "unit_price": 205.22
       }
     ]
   },
   {
-    "order_id": "ORD-004",
+    "order_id": "ORD-0019",
+    "customer_id": "Cust_103",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 9,
+        "unit_price": 17.18
+      },
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 180.45
+      },
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 1,
+        "unit_price": 215.26
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0020",
+    "customer_id": "cust_133",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 2,
+        "unit_price": 19.74
+      },
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 238.65
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 3,
+        "unit_price": 116.78
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 170.25
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0021",
+    "customer_id": "CUST_134",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_N",
+        "category": "apparel",
+        "quantity": 1,
+        "unit_price": 53.11
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0022",
+    "customer_id": "cust_105",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 17.12
+      },
+      {
+        "product_id": "PROD_N",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 69.97
+      },
+      {
+        "product_id": "PROD_M",
+        "category": null,
+        "quantity": 8,
+        "unit_price": 51.73
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0023",
+    "customer_id": "Cust_123",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 28.87
+      },
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 2,
+        "unit_price": 240.98
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0024",
+    "customer_id": "CUST_126",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 2,
+        "unit_price": 179.54
+      },
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 3,
+        "unit_price": 169.07
+      },
+      {
+        "product_id": "prod_p",
+        "category": "Books",
+        "quantity": 8,
+        "unit_price": 13.05
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0025",
+    "customer_id": "CUST_106",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 8,
+        "unit_price": 28.48
+      },
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 4,
+        "unit_price": 21.53
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "Apparel",
+        "quantity": 4,
+        "unit_price": 33.56
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0026",
+    "customer_id": "CUST_102",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_u",
+        "category": "",
+        "quantity": 3,
+        "unit_price": 148.12
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "",
+        "quantity": 5,
+        "unit_price": 8.11
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0027",
+    "customer_id": "CUST_114",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_T",
+        "category": "Apparel",
+        "quantity": 3,
+        "unit_price": 253.75
+      },
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 2,
+        "unit_price": 23.29
+      },
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 1,
+        "unit_price": 169.4
+      },
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 3,
+        "unit_price": 76.35
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0028",
+    "customer_id": "cust_129",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_L",
+        "category": "beauty",
+        "quantity": 7,
+        "unit_price": 149.76
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0029",
+    "customer_id": "CUST_140",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 9,
+        "unit_price": 101.58
+      },
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 4,
+        "unit_price": 19.0
+      },
+      {
+        "product_id": "prod_p",
+        "category": "Books",
+        "quantity": 7,
+        "unit_price": 78.95
+      },
+      {
+        "product_id": "PROD_Y",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 106.56
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0030",
+    "customer_id": "Cust_115",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 34.62
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "Apparel",
+        "quantity": 1,
+        "unit_price": 13.22
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 231.57
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0031",
+    "customer_id": "CUST_114",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 6,
+        "unit_price": 11.92
+      },
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 4,
+        "unit_price": 21.4
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 1,
+        "unit_price": 50.67
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0032",
+    "customer_id": "cust_137",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_a",
+        "category": "Electronics",
+        "quantity": 9,
+        "unit_price": 29.56
+      },
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 3,
+        "unit_price": 23.47
+      },
+      {
+        "product_id": "PROD_R",
+        "category": "",
+        "quantity": 1,
+        "unit_price": 88.73
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0033",
+    "customer_id": "Cust_111",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_E",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 110.47
+      },
+      {
+        "product_id": "prod_f",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 23.95
+      },
+      {
+        "product_id": "PROD_X",
+        "category": null,
+        "quantity": 6,
+        "unit_price": 7.98
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0034",
+    "customer_id": "Cust_115",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 9,
+        "unit_price": 171.32
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 28.76
+      },
+      {
+        "product_id": "PROD_Y",
+        "category": "Electronics",
+        "quantity": 3,
+        "unit_price": 79.74
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 1,
+        "unit_price": 78.6
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0035",
+    "customer_id": "Cust_103",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 8,
+        "unit_price": 99.94
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0036",
+    "customer_id": "CUST_132",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 3,
+        "unit_price": 58.7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0037",
+    "customer_id": "CUST_124",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 3,
+        "unit_price": 104.79
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0038",
+    "customer_id": "cust_109",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_N",
+        "category": "Apparel",
+        "quantity": 7,
+        "unit_price": 7.04
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 1,
+        "unit_price": 78.95
+      },
+      {
+        "product_id": "Prod_L",
+        "category": "Beauty",
+        "quantity": 7,
+        "unit_price": 26.25
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0039",
+    "customer_id": "Cust_123",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_M",
+        "category": "",
+        "quantity": 1,
+        "unit_price": 134.07
+      },
+      {
+        "product_id": "PROD_Y",
+        "category": "",
+        "quantity": 8,
+        "unit_price": 43.78
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "",
+        "quantity": 5,
+        "unit_price": 99.88
+      },
+      {
+        "product_id": "Prod_B",
+        "category": "",
+        "quantity": 5,
+        "unit_price": 14.08
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0040",
+    "customer_id": "Cust_127",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 56.54
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0041",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 6,
+        "unit_price": 32.64
+      },
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 4,
+        "unit_price": 85.22
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 4,
+        "unit_price": 67.09
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0042",
+    "customer_id": "Cust_135",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_u",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 84.07
+      },
+      {
+        "product_id": "PROD_Y",
+        "category": "electronics",
+        "quantity": 3,
+        "unit_price": 57.73
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0043",
+    "customer_id": "CUST_116",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 4,
+        "unit_price": 32.83
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 7,
+        "unit_price": 215.27
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0044",
+    "customer_id": "CUST_126",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 3,
+        "unit_price": 73.31
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0045",
+    "customer_id": "Cust_131",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_T",
+        "category": "Apparel",
+        "quantity": 7,
+        "unit_price": 146.06
+      },
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 5,
+        "unit_price": 109.21
+      },
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 7,
+        "unit_price": 151.24
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0046",
+    "customer_id": "cust_101",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 3,
+        "unit_price": 31.99
+      },
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 2,
+        "unit_price": 127.31
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0047",
+    "customer_id": "cust_137",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_Y",
+        "category": "Electronics",
+        "quantity": 7,
+        "unit_price": 118.46
+      },
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 6,
+        "unit_price": 149.43
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0048",
+    "customer_id": "cust_113",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 7,
+        "unit_price": 156.72
+      },
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 9,
+        "unit_price": 83.55
+      },
+      {
+        "product_id": "PROD_D",
+        "category": "Books",
+        "quantity": 3,
+        "unit_price": 11.81
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0049",
+    "customer_id": "Cust_139",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_f",
+        "category": "beauty",
+        "quantity": 6,
+        "unit_price": 18.89
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 1,
+        "unit_price": 209.25
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "apparel",
+        "quantity": 7,
+        "unit_price": 97.66
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "apparel",
+        "quantity": 6,
+        "unit_price": 111.23
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0050",
+    "customer_id": "Cust_135",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 19.95
+      },
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 73.91
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0051",
+    "customer_id": "Cust_123",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_D",
+        "category": "Books",
+        "quantity": 3,
+        "unit_price": 95.87
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 9,
+        "unit_price": 255.36
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0052",
+    "customer_id": "CUST_114",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_H",
+        "category": "",
+        "quantity": 6,
+        "unit_price": 196.71
+      },
+      {
+        "product_id": "PROD_D",
+        "category": "",
+        "quantity": 3,
+        "unit_price": 94.62
+      },
+      {
+        "product_id": "PROD_I",
+        "category": "",
+        "quantity": 8,
+        "unit_price": 65.39
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "",
+        "quantity": 9,
+        "unit_price": 196.44
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0053",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 8,
+        "unit_price": 200.6
+      },
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 8,
+        "unit_price": 189.51
+      },
+      {
+        "product_id": "PROD_R",
+        "category": "",
+        "quantity": 2,
+        "unit_price": 34.14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0054",
+    "customer_id": "CUST_128",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 3,
+        "unit_price": 16.2
+      },
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 3,
+        "unit_price": 19.32
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0055",
+    "customer_id": "CUST_132",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_O",
+        "category": null,
+        "quantity": 6,
+        "unit_price": 168.38
+      },
+      {
+        "product_id": "PROD_Y",
+        "category": null,
+        "quantity": 6,
+        "unit_price": 232.77
+      },
+      {
+        "product_id": "PROD_R",
+        "category": null,
+        "quantity": 6,
+        "unit_price": 119.48
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0056",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_G",
+        "category": "electronics",
+        "quantity": 2,
+        "unit_price": 150.9
+      },
+      {
+        "product_id": "prod_u",
+        "category": "home",
+        "quantity": 3,
+        "unit_price": 9.95
+      },
+      {
+        "product_id": "PROD_T",
+        "category": "apparel",
+        "quantity": 3,
+        "unit_price": 9.18
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0057",
+    "customer_id": "cust_117",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 9,
+        "unit_price": 114.37
+      },
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 3,
+        "unit_price": 26.06
+      },
+      {
+        "product_id": "PROD_Y",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 23.17
+      },
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 9,
+        "unit_price": 199.88
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0058",
+    "customer_id": "cust_125",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 12.61
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 2,
+        "unit_price": 55.16
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0059",
+    "customer_id": "CUST_108",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_B",
+        "category": "Apparel",
+        "quantity": 9,
+        "unit_price": 249.55
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 29.5
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0060",
+    "customer_id": "cust_117",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_T",
+        "category": "Apparel",
+        "quantity": 4,
+        "unit_price": 25.97
+      },
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 5,
+        "unit_price": 21.9
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 4,
+        "unit_price": 7.01
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0061",
+    "customer_id": "Cust_127",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 2,
+        "unit_price": 17.95
+      },
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 4,
+        "unit_price": 111.48
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 3,
+        "unit_price": 243.81
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0062",
+    "customer_id": "CUST_124",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 6,
+        "unit_price": 178.07
+      },
+      {
+        "product_id": "PROD_T",
+        "category": "Apparel",
+        "quantity": 9,
+        "unit_price": 105.12
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0063",
+    "customer_id": "Cust_135",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 8,
+        "unit_price": 12.31
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0064",
     "customer_id": "CUST_104",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 7,
+        "unit_price": 217.36
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 45.19
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 3,
+        "unit_price": 18.39
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0065",
+    "customer_id": "Cust_131",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_f",
+        "category": "",
+        "quantity": 1,
+        "unit_price": 118.99
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0066",
+    "customer_id": "cust_105",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": null,
+        "quantity": 8,
+        "unit_price": 52.5
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0067",
+    "customer_id": "cust_109",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 28.84
+      },
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 6,
+        "unit_price": 193.91
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 7,
+        "unit_price": 87.21
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0068",
+    "customer_id": "cust_105",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 26.81
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0069",
+    "customer_id": "CUST_102",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 6,
+        "unit_price": 192.5
+      },
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 8,
+        "unit_price": 129.16
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 1,
+        "unit_price": 9.98
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "Apparel",
+        "quantity": 6,
+        "unit_price": 171.99
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0070",
+    "customer_id": "CUST_110",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_V",
+        "category": "books",
+        "quantity": 6,
+        "unit_price": 9.0
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0071",
+    "customer_id": "CUST_132",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 9,
+        "unit_price": 181.52
+      },
+      {
+        "product_id": "PROD_D",
+        "category": "Books",
+        "quantity": 7,
+        "unit_price": 136.18
+      },
+      {
+        "product_id": "PROD_T",
+        "category": "Apparel",
+        "quantity": 8,
+        "unit_price": 147.25
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0072",
+    "customer_id": "CUST_114",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 1,
+        "unit_price": 20.61
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0073",
+    "customer_id": "CUST_104",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 6,
+        "unit_price": 237.86
+      },
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 2,
+        "unit_price": 217.86
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "Apparel",
+        "quantity": 7,
+        "unit_price": 25.72
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 171.96
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0074",
+    "customer_id": "cust_133",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 89.14
+      },
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 3,
+        "unit_price": 169.41
+      },
+      {
+        "product_id": "Prod_L",
+        "category": "Beauty",
+        "quantity": 7,
+        "unit_price": 28.78
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 4,
+        "unit_price": 195.74
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0075",
+    "customer_id": "Cust_103",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 9,
+        "unit_price": 12.81
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0076",
+    "customer_id": "cust_113",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 8,
+        "unit_price": 23.75
+      },
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 4,
+        "unit_price": 62.89
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "Apparel",
+        "quantity": 2,
+        "unit_price": 22.53
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0077",
+    "customer_id": "cust_137",
     "status": "completed",
     "items": [
       {
         "product_id": "PROD_D",
         "category": null,
+        "quantity": 3,
+        "unit_price": 102.62
+      },
+      {
+        "product_id": "PROD_X",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 59.0
+      },
+      {
+        "product_id": "PROD_M",
+        "category": null,
+        "quantity": 6,
+        "unit_price": 85.57
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0078",
+    "customer_id": "CUST_140",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_I",
+        "category": "",
+        "quantity": 7,
+        "unit_price": 234.21
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "",
+        "quantity": 5,
+        "unit_price": 128.55
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0079",
+    "customer_id": "CUST_104",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_a",
+        "category": "Electronics",
+        "quantity": 9,
+        "unit_price": 191.35
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0080",
+    "customer_id": "cust_109",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_Y",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 15.24
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "Apparel",
+        "quantity": 1,
+        "unit_price": 44.88
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
         "quantity": 4,
-        "unit_price": 12.50
+        "unit_price": 244.92
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0081",
+    "customer_id": "CUST_126",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 3,
+        "unit_price": 29.08
+      },
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 189.12
+      },
+      {
+        "product_id": "PROD_W",
+        "category": "Sports",
+        "quantity": 9,
+        "unit_price": 220.32
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0082",
+    "customer_id": "Cust_115",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 3,
+        "unit_price": 199.94
+      },
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 1,
+        "unit_price": 72.81
+      },
+      {
+        "product_id": "PROD_H",
+        "category": "Apparel",
+        "quantity": 8,
+        "unit_price": 16.21
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0083",
+    "customer_id": "cust_117",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 1,
+        "unit_price": 20.89
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0084",
+    "customer_id": "Cust_119",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_T",
+        "category": "apparel",
+        "quantity": 3,
+        "unit_price": 101.09
+      },
+      {
+        "product_id": "prod_f",
+        "category": "beauty",
+        "quantity": 6,
+        "unit_price": 19.24
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0085",
+    "customer_id": "CUST_110",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 3,
+        "unit_price": 113.1
+      },
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 9,
+        "unit_price": 25.1
+      },
+      {
+        "product_id": "prod_a",
+        "category": "Electronics",
+        "quantity": 7,
+        "unit_price": 199.42
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0086",
+    "customer_id": "cust_121",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 2,
+        "unit_price": 6.25
+      },
+      {
+        "product_id": "Prod_B",
+        "category": "Apparel",
+        "quantity": 9,
+        "unit_price": 16.98
+      },
+      {
+        "product_id": "Prod_L",
+        "category": "Beauty",
+        "quantity": 1,
+        "unit_price": 257.09
+      },
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 2,
+        "unit_price": 166.91
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0087",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_a",
+        "category": "Electronics",
+        "quantity": 4,
+        "unit_price": 81.7
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 148.87
+      },
+      {
+        "product_id": "PROD_N",
+        "category": "Apparel",
+        "quantity": 5,
+        "unit_price": 188.9
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0088",
+    "customer_id": "CUST_108",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": null,
+        "quantity": 2,
+        "unit_price": 54.67
+      },
+      {
+        "product_id": "prod_p",
+        "category": null,
+        "quantity": 7,
+        "unit_price": 115.16
+      },
+      {
+        "product_id": "prod_a",
+        "category": null,
+        "quantity": 3,
+        "unit_price": 26.95
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0089",
+    "customer_id": "cust_125",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_p",
+        "category": "Books",
+        "quantity": 1,
+        "unit_price": 55.81
+      },
+      {
+        "product_id": "Prod_B",
+        "category": "Apparel",
+        "quantity": 4,
+        "unit_price": 8.53
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0090",
+    "customer_id": "CUST_128",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 4,
+        "unit_price": 20.52
+      },
+      {
+        "product_id": "Prod_L",
+        "category": "Beauty",
+        "quantity": 1,
+        "unit_price": 13.51
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0091",
+    "customer_id": "cust_117",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_E",
+        "category": "",
+        "quantity": 6,
+        "unit_price": 25.75
+      },
+      {
+        "product_id": "PROD_T",
+        "category": "",
+        "quantity": 9,
+        "unit_price": 92.71
+      },
+      {
+        "product_id": "PROD_O",
+        "category": "",
+        "quantity": 6,
+        "unit_price": 170.38
+      },
+      {
+        "product_id": "PROD_S",
+        "category": "",
+        "quantity": 5,
+        "unit_price": 21.57
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0092",
+    "customer_id": "cust_129",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_Y",
+        "category": "Electronics",
+        "quantity": 6,
+        "unit_price": 104.63
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0093",
+    "customer_id": "cust_109",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_B",
+        "category": "Apparel",
+        "quantity": 3,
+        "unit_price": 20.51
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0094",
+    "customer_id": "cust_101",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 4,
+        "unit_price": 148.25
+      },
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 27.53
+      },
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 1,
+        "unit_price": 92.72
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0095",
+    "customer_id": "cust_109",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 2,
+        "unit_price": 7.42
+      },
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 6,
+        "unit_price": 78.08
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 8,
+        "unit_price": 11.49
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0096",
+    "customer_id": "Cust_123",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_a",
+        "category": "Electronics",
+        "quantity": 6,
+        "unit_price": 14.97
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0097",
+    "customer_id": "CUST_128",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 4,
+        "unit_price": 28.99
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0098",
+    "customer_id": "cust_109",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 2,
+        "unit_price": 32.88
+      },
+      {
+        "product_id": "Prod_Q",
+        "category": null,
+        "quantity": 8,
+        "unit_price": 15.46
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0099",
+    "customer_id": "CUST_132",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "Prod_B",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 228.97
+      },
+      {
+        "product_id": "PROD_W",
+        "category": null,
+        "quantity": 9,
+        "unit_price": 112.81
+      },
+      {
+        "product_id": "Prod_V",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 59.9
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0100",
+    "customer_id": "Cust_135",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_R",
+        "category": "",
+        "quantity": 2,
+        "unit_price": 47.93
+      },
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 1,
+        "unit_price": 58.93
+      },
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 30.21
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0101",
+    "customer_id": "CUST_104",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 5,
+        "unit_price": 31.95
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 8,
+        "unit_price": 16.5
+      },
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 2,
+        "unit_price": 24.07
+      },
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 5,
+        "unit_price": 26.71
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0102",
+    "customer_id": "cust_113",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 2,
+        "unit_price": 9.8
+      },
+      {
+        "product_id": "prod_k",
+        "category": null,
+        "quantity": 1,
+        "unit_price": 89.36
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0103",
+    "customer_id": "cust_109",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "Home",
+        "quantity": 4,
+        "unit_price": 56.41
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0104",
+    "customer_id": "CUST_122",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_N",
+        "category": "",
+        "quantity": 2,
+        "unit_price": 77.96
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0105",
+    "customer_id": "Cust_123",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_C",
+        "category": "home",
+        "quantity": 2,
+        "unit_price": 98.81
+      },
+      {
+        "product_id": "Prod_L",
+        "category": "beauty",
+        "quantity": 6,
+        "unit_price": 34.3
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0106",
+    "customer_id": "CUST_104",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_X",
+        "category": "",
+        "quantity": 6,
+        "unit_price": 32.91
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0107",
+    "customer_id": "Cust_119",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "Prod_G",
+        "category": "Electronics",
+        "quantity": 9,
+        "unit_price": 171.08
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 3,
+        "unit_price": 232.63
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0108",
+    "customer_id": "cust_113",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "PROD_I",
+        "category": "Home",
+        "quantity": 6,
+        "unit_price": 258.68
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0109",
+    "customer_id": "Cust_123",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_R",
+        "category": "",
+        "quantity": 2,
+        "unit_price": 23.77
+      },
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 8,
+        "unit_price": 144.0
+      },
+      {
+        "product_id": "prod_p",
+        "category": "Books",
+        "quantity": 3,
+        "unit_price": 254.64
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0110",
+    "customer_id": "CUST_122",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_M",
+        "category": null,
+        "quantity": 5,
+        "unit_price": 19.21
+      },
+      {
+        "product_id": "PROD_S",
+        "category": null,
+        "quantity": 4,
+        "unit_price": 44.61
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0111",
+    "customer_id": "Cust_139",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_J",
+        "category": "Books",
+        "quantity": 1,
+        "unit_price": 215.2
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0112",
+    "customer_id": "cust_137",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_p",
+        "category": "books",
+        "quantity": 2,
+        "unit_price": 219.38
+      },
+      {
+        "product_id": "prod_a",
+        "category": "electronics",
+        "quantity": 2,
+        "unit_price": 7.17
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0113",
+    "customer_id": "CUST_140",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_S",
+        "category": "Electronics",
+        "quantity": 1,
+        "unit_price": 219.95
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0114",
+    "customer_id": "Cust_127",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_p",
+        "category": "Books",
+        "quantity": 4,
+        "unit_price": 166.34
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0115",
+    "customer_id": "CUST_130",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 7,
+        "unit_price": 219.53
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0116",
+    "customer_id": "CUST_118",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_E",
+        "category": "Sports",
+        "quantity": 7,
+        "unit_price": 254.09
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0117",
+    "customer_id": "Cust_103",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "prod_k",
+        "category": "",
+        "quantity": 4,
+        "unit_price": 170.1
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0118",
+    "customer_id": "CUST_116",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "prod_f",
+        "category": "Beauty",
+        "quantity": 1,
+        "unit_price": 76.2
+      },
+      {
+        "product_id": "Prod_V",
+        "category": "Books",
+        "quantity": 9,
+        "unit_price": 16.68
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0119",
+    "customer_id": "CUST_118",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "prod_p",
+        "category": "books",
+        "quantity": 9,
+        "unit_price": 33.62
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-0120",
+    "customer_id": "CUST_104",
+    "status": "completed",
+    "items": [
+      {
+        "product_id": "PROD_M",
+        "category": "Electronics",
+        "quantity": 8,
+        "unit_price": 32.02
+      },
+      {
+        "product_id": "prod_u",
+        "category": "Home",
+        "quantity": 4,
+        "unit_price": 160.97
+      },
+      {
+        "product_id": "PROD_O",
+        "category": "Home",
+        "quantity": 5,
+        "unit_price": 246.72
       }
     ]
   }
