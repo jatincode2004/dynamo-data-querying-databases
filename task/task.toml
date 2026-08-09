@@ -24,7 +24,7 @@ difficulty_explanation = "This synthetic commerce dataset models schema evolutio
 
 solution_explanation = "Load all three collections, normalize logical identifiers, retain the highest schema_version for each logical entity, derive categories from the retained product catalog, then process only active order lines. Subtract each line discount from quantity times unit price, count orders containing cancelled lines, aggregate customer spend, product quantities, and category revenue, apply the specified lexical tie-breakers, and serialize the six required metrics."
 
-verification_explanation = "Tests independently reconcile every collection by logical identifier and highest schema_version, then recompute revenue, active customers, cancelled-order counts, top customer, top product, and category revenue from the retained records. Numeric revenue comparisons use a 1e-6 absolute tolerance because the report is rounded to two decimal places while intermediate calculations use binary floating-point arithmetic."
+verification_explanation = "Tests independently reconcile customers, products, and orders by logical identifier and highest schema_version, then recompute revenue, active customers, cancelled-order counts, top customer, top product, and category revenue from the retained records. Numeric revenue comparisons use a 1e-2 absolute tolerance to match the verifier rounding and comparison behavior."
 
 [verifier]
 timeout_sec = 120.0
