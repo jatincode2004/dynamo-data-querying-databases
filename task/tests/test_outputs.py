@@ -63,7 +63,29 @@ def applicable_record(records, target_date):
 
     return candidates[0][2]
 
+def reconcile_orders(orders):
+    """Retain only the highest schema_version per logical order ID."""
+    retained = {}
 
+    for order in orders:
+        order_id = normalize_id(
+            order.get("order_id") or order.get("id")
+        )
+
+        if not order_id:
+            continue
+
+        try:
+            version = int(order.get("schema_version", 1))
+        except (TypeError, ValueError):
+            version = 1
+
+        current = retained.get(order_id)
+
+        if current is None or version > current[0]:
+            retained[order_id] = (version, order)
+
+    return [order for _, order in retained.values()]
 def is_cancelled_line(item):
     return (
         str(item.get("line_status", ""))
@@ -115,6 +137,8 @@ def compute_expected_metrics():
         encoding="utf-8",
     ) as f:
         orders = json.load(f)
+
+    orders = reconcile_orders(orders)
 
     total_revenue = 0.0
     cancelled_orders = 0

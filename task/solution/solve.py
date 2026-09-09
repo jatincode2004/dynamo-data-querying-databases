@@ -102,7 +102,35 @@ def get_discount(item):
             return 0.0
 
     return 0.0
+def reconcile_orders(orders):
+    """Retain only the highest schema_version per logical order ID."""
+    retained = {}
 
+    for order in orders:
+        order_id = normalize_id(
+            order.get("order_id") or order.get("id")
+        )
+
+        if not order_id:
+            continue
+
+        try:
+            version = int(order.get("schema_version", 1))
+        except (TypeError, ValueError):
+            version = 1
+
+        current = retained.get(order_id)
+
+        if current is None:
+            retained[order_id] = (version, order)
+            continue
+
+        current_version = current[0]
+
+        if version > current_version:
+            retained[order_id] = (version, order)
+
+    return [order for _, order in retained.values()]
 
 def main():
     with open(
@@ -126,6 +154,7 @@ def main():
     ) as f:
         orders = json.load(f)
 
+    orders = reconcile_orders(orders)
     total_revenue = 0.0
     cancelled_orders = 0
 
